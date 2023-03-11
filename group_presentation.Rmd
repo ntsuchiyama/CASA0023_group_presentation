@@ -29,6 +29,8 @@ Problem
 
 Problem: Urban Heat Island in the City of Phoenix, Arizona
 
+- Car Usage in Phoenix
+
 
 
 Economic Costs of the Urban Heat Island in Phoenix
