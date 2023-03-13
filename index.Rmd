@@ -12,7 +12,18 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+# Content
 
+1.Background And Benefits
+
+2.Workflow And Implementation
+
+3.Project Management Overview
+
+---
+class: center, middle
+# Background And Benefits
+---
 class: inverse, middle, center
 
 # Problem
@@ -25,7 +36,7 @@ Problem: Urban Heat Island in the City of Phoenix, Arizona
 
 
 
-Economic Costs of the Urban Heat Island in Phoenix
+Economic Cost of the Urban Heat Island in Phoenix
 
 ---
 
@@ -43,6 +54,47 @@ class: inverse, middle, center
 
 # Project plan
 
+---
+class: center, middle
+# Workflow And Implementation
+---
+# Overall Workflow
+(sample)
+![](sample.png)
+---
+# Implementation1
+
+The implementation section describes the planning of planting trees, which is divided into 3 parts:
+
+**1.Preliminary Preparation: Bus Stop Survey**
+- Identify if the bus stop is suitable for tree plangting
+- Check if there is:
+  + Adequate aboveground space
+  + Pavement requiring removal before planting
+  + Irrigation in-place
+
+**2. Planting**
+- Type: Mesquite tree
+- One tree at each bus stop
+
+**3. Maintenance**
+- Prune
+  + Ensuring a strong structure
+- Irrigation
+  + In-place irrigation
+  + Cost are divided into equipment installation and water charges
+  
+---
+# Implementation2
+
+The budget of implementation section is as the following:
+
+![](Implementation_cost.png)
+- Select the bus stops that are not built on the pavement (no removal cost)
+- The calculation is based on 52 weeks a year
+- Totally 300 trees and 3 years
+
+Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (pruning) + ＄250 (Planting Hole) + 0.30*52*3 (water) )= ＄184,040
 ---
 
 
