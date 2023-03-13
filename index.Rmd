@@ -13,6 +13,7 @@ output:
       countIncrementalSlides: false
 ---
 12345
+this is ruru
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
 ```{r setup, include=FALSE}
