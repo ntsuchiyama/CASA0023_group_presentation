@@ -22,22 +22,21 @@ output:
 
 ---
 class: center, middle
-# Background And Benefits
----
-class: inverse, middle, center
-
-# Problem
+# Problem 
+## Background And Benefits
 
 ---
 
 Problem: Urban Heat Island in the City of Phoenix, Arizona
 
-- Car Usage in Phoenix
-
+- Car Usage in Phoenix 
 
 
 Economic Cost of the Urban Heat Island in Phoenix
 
+---
+
+Car Usage in Phoenix 
 ---
 
 class: inverse, middle, center
