@@ -12,21 +12,10 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-12345
-this is ruru...
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+class: inverse, middle, center
 
-???
-
-
-
----
-Problemm
-
+# Problem
 
 ---
 
@@ -39,54 +28,24 @@ Problem: Urban Heat Island in the City of Phoenix, Arizona
 Economic Costs of the Urban Heat Island in Phoenix
 
 ---
-Approach
----
 
-- lead by the Nature Conservancy  - conducted in the Maricopa county 
-Heat Action Plan 
-- participatory process 
-- community based approach involving a total of three workshops - total of three neighbourhoods were selected based on temperature, higher risk of heat-related diseases
+class: inverse, middle, center
 
-• Edison-Eastlake Community, Central Phoenix, AZ
-- high latino population 
-- low home ownership
-- progressive impovershment 
-
-- hot walking routes where the community relies on public transportation 
-- re-imagining of bus stops 
-
-- Residents would like to see a fund developed that would
-help to maintain shade trees, assist with the financial
-burden of removing dead trees, and the purchase of
-replacement trees. Shade along walking routes, especially
-for children on their way to school, is a priority for Lindo
-Park-Roesley Park Neighborhood
-
-he community is over two-thirds
-Latino but has a sizeable Black population (18%) as
-well
-
-
-- identification of hot spot interventions 
-
-- what this project shows
-- 'the ideas are similar across different neighbourhoods, but the specific applications of solutions varied across neighbourhoods'
-• Lindo Park-Roesley Park Neighborhood, South
-Phoenix, AZ
-
+# Approach
 
 ---
-Project plan, risks and value for money
+
 ---
 
-Business as Usual 
-- Cool Corridor Program 
-$1.5M annually to install 9 miles of "cool corridor" each year--a pedestrian route through vulnerable communities that provides shaded pathways from neighborhoods to transit, shops, schools and places of employment.  Each corridor could incorporate up to 200 trees and other forms of structured share or public art that provides shade and other cooling assets. 
+class: inverse, middle, center
 
-- implementation of two projects from the Heat Action
+# Project plan, risks and value for money
+---
 
-- highlight a couple of notable things in the 
-stakeholder engagement inputs and outputs at the end of every work package 
+
+end 
+
+---
 ---
 class: center, middle
 
