@@ -1,9 +1,9 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "Green Bus Stop Project"
+subtitle: "Combatting Urban Heat Island in Phoenix, Arizona"
+author: ""
+institute: "CASA0023 Remotely Sensing "
+date: "2023/03/20 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
