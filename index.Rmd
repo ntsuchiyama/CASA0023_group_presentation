@@ -118,10 +118,9 @@ Pre-process Limitation
 ![Bus stops](image/bus_station.png)
 
 ---
-class: middle, center
 
 ## Monitor and Evaluation
-
+![](monitor.jpg)
 ---
 ## Personal Weather Station(PWS)
 
