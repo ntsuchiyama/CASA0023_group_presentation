@@ -37,30 +37,39 @@ class: inverse, center, middle
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("uhi.jpg")
 ```
-
-
-
 ---
 
-# Impacts of UHI in Phoenix
+# Cost of the UHI in Phoenix
+
+## Public Health
+
+```{r echo = FALSE, out.width='75%', fig.align='center'}
+knitr::include_graphics("death.png")
+```
 
 ---
 
 # Cost of the UHI in Phoenix
 
-```{r echo = FALSE, out.width='75%', fig.align='center'}
+## Economic
+
+```{r echo = FALSE, out.width='60%', fig.align='center'}
 knitr::include_graphics("cost.png")
 ```
----
 
 ---
 
 # Global Policies regarding UHI
 
+## Beat the Heat 
+
+- Phoen
+
 ---
 
 # Local Policies regarding UHI in Phoenix 
 
+- 
 ---
 
 # Benefit of the UHI in Phoenix 
