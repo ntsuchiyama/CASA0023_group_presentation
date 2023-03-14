@@ -63,13 +63,20 @@ knitr::include_graphics("cost.png")
 
 ## Beat the Heat 
 
-- Phoen
+- Phoenix introduced as a 'neighbourhood case study'
 
 ---
 
 # Local Policies regarding UHI in Phoenix 
 
-- 
+## Phoenix Climate Action Plan
+
+### Heat Section - 2050 goal
+
+- **Reduce urban heat-island effect through green infrastructure as well as doubling the current tree and shade canopy to 25%**
+- Have all residents within a five-minute walk from a park or open space by adding new parks or open space in underserved areas,
+adding 150 miles of paths, greenways, and bikeways throughout the city, and transforming an additional 150 miles of canals into vibrant public space.
+
 ---
 
 # Benefit of the UHI in Phoenix 
