@@ -65,7 +65,7 @@ knitr::include_graphics("cost.png")
 
 ---
 
-# Local Policies regarding UHI in Phoenix 
+# Local Policies regarding UHI 
 
 ## Phoenix Climate Action Plan
 
@@ -82,6 +82,15 @@ adding 150 miles of paths, greenways, and bikeways throughout the city, and tran
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("benefit_cost.png")
 ```
+
+---
+
+# UHI and Transporation 
+
+- high usage of cars (highly car dependent), city structure built by urban sprawl into the deserts - accelerates the UHI impact 
+- community interventions demonstrating reliance on public transport in low-income communities vulnerbale to heat 
+- tackling UHI from both adaptation and mitigation 
+
 
 ---
 
