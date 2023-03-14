@@ -61,13 +61,13 @@ knitr::include_graphics("cost.png")
 
 # Global Policies regarding UHI
 
-## 
+## New Urban Agenda
 
-- "benefits of connectivity and reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise.
+- "benefits of connectivity and reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise."
 
 ## SDGs 
 
-**
+- "Investing in parks and green spaces in urban areas will help to ameliorate the urban heat island effect and improve air quality in urban spaces."
 
 ---
 
