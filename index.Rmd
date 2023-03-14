@@ -97,11 +97,29 @@ class: middle, center
 ---
 # Monitor
 
+<<<<<<< HEAD
+Data sets for detecting and classifying bus stops which have high temperature problem
+![Data Workflow](image/Mindmap.jpg)
+Progress
+- Collect and cut the Phoenix area remotely sensing Landsat 5+8 image
+- Contract band 10 in Landsat 8,to create a heat map
+- Spatial join remotely sensing image with bus stops points data
+- Select top 30% hottest bus stops
+=======
 ![](pre_img.jpg)
+>>>>>>> f584a2cabe800c375224398d195036bbcab73ee6
 
 ---
 ## Personal Weather Station(PWS)
 
+<<<<<<< HEAD
+ 
+--- 
+---
+Pre-process Limitation
+- ![Bus stops](image/bus_station.png)
+
+=======
 ![](https://www.wunderground.com/static/i/PWSassets/overview1.png)
 
 .footnote[ *PWS Work Process.Image Source:[https://www.wunderground.com/pws/overview](https://www.wunderground.com/pws/overview)]
@@ -121,6 +139,7 @@ class: middle, center
 - Data maybe affected by surrounding buildings
 
 - Weather data is homogeneous and prone to human activities
+>>>>>>> f584a2cabe800c375224398d195036bbcab73ee6
 ---
 
 class: inverse, middle, center
