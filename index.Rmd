@@ -28,17 +28,55 @@ class: inverse, center, middle
 
 ---
 
-Problem: Urban Heat Island in the City of Phoenix, Arizona
+# Urban Heat Island (UHI) in the Phoenix, Arizona
 
+- Conversion of land usage - hotter than the surrounding desert
+- Usage of AC makes outside spaces hotter especially during the night
+- Tends to be most intense in the low income areas - more than half of the people who died in 2020 from heat were homeless
 
-- Car Usage in Phoenix 
+```{r echo = FALSE, out.width='75%', fig.align='center'}
+knitr::include_graphics("uhi.jpg")
+```
+---
 
+# Cost of the UHI in Phoenix
 
-Economic Cost of the Urban Heat Island in Phoenix
+## Public Health
+
+```{r echo = FALSE, out.width='75%', fig.align='center'}
+knitr::include_graphics("death.png")
+```
 
 ---
 
-Car Usage in Phoenix 
+# Cost of the UHI in Phoenix
+
+## Economic
+
+```{r echo = FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics("cost.png")
+```
+
+---
+
+# Global Policies regarding UHI
+
+## Beat the Heat 
+
+- Phoen
+
+---
+
+# Local Policies regarding UHI in Phoenix 
+
+- 
+---
+
+# Benefit of the UHI in Phoenix 
+
+```{r echo = FALSE, out.width='75%', fig.align='center'}
+knitr::include_graphics("benefit_cost.png")
+```
 
 ---
 
@@ -47,7 +85,12 @@ class: inverse, middle, center
 # Approach
 
 ---
+class: middle, center
+## Monitor and Evaluation
+---
+# Monitor
 
+<<<<<<< HEAD
 Data sets for detecting and classifying bus stops which have high temperature problem
 ![Data Workflow](image/Mindmap.jpg)
 Progress
@@ -55,14 +98,41 @@ Progress
 - Contract band 10 in Landsat 8,to create a heat map
 - Spatial join remotely sensing image with bus stops points data
 - Select top 30% hottest bus stops
+=======
+![](pre_img.jpg)
+>>>>>>> f584a2cabe800c375224398d195036bbcab73ee6
 
+---
+## Personal Weather Station(PWS)
 
+<<<<<<< HEAD
  
 --- 
 ---
 Pre-process Limitation
 - ![Bus stops](image/bus_station.png)
 
+=======
+![](https://www.wunderground.com/static/i/PWSassets/overview1.png)
+
+.footnote[ *PWS Work Process.Image Source:[https://www.wunderground.com/pws/overview](https://www.wunderground.com/pws/overview)]
+---
+## Features of PWS
+
+- Precision: Get weather conditions for users' exact location (not their neighbor’s)
+
+- Visualization: See comprehensive dashboards and graphs of users' station data
+
+- Historical: Archive  historical data so users can always look back
+
+- Share: Share user data and help supplier improve weather forecasting for everyone
+
+## Limitation
+
+- Data maybe affected by surrounding buildings
+
+- Weather data is homogeneous and prone to human activities
+>>>>>>> f584a2cabe800c375224398d195036bbcab73ee6
 ---
 
 class: inverse, middle, center
