@@ -85,9 +85,35 @@ class: inverse, middle, center
 # Approach
 
 ---
+class: middle, center
+## Monitor and Evaluation
+---
+# Monitor
 
+![](pre_img.jpg)
 
+---
+## Personal Weather Station(PWS)
 
+![](https://www.wunderground.com/static/i/PWSassets/overview1.png)
+
+.footnote[ *PWS Work Process.Image Source:[https://www.wunderground.com/pws/overview](https://www.wunderground.com/pws/overview)]
+---
+## Features of PWS
+
+- Precision: Get weather conditions for users' exact location (not their neighbor’s)
+
+- Visualization: See comprehensive dashboards and graphs of users' station data
+
+- Historical: Archive  historical data so users can always look back
+
+- Share: Share user data and help supplier improve weather forecasting for everyone
+
+## Limitation
+
+- Data maybe affected by surrounding buildings
+
+- Weather data is homogeneous and prone to human activities
 ---
 
 class: inverse, middle, center
