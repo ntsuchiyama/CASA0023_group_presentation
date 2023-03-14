@@ -63,6 +63,12 @@ knitr::include_graphics("cost.png")
 
 ## 
 
+- "benefits of connectivity and reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise.
+
+## SDGs 
+
+**
+
 ---
 
 # Local Policies regarding UHI 
@@ -88,9 +94,9 @@ knitr::include_graphics("benefit_cost.png")
 # UHI and Transporation 
 
 - high usage of cars (highly car dependent), city structure built by urban sprawl into the deserts - accelerates the UHI impact 
-- community interventions demonstrating reliance on public transport in low-income communities vulnerbale to heat 
-- tackling UHI from both adaptation and mitigation 
-
+- community interventions demonstrating reliance on public transport in low-income communities found vulnerable to heat 
+- Phoenix providing Shade
+- tackling UHI from both adaptation and mitigation through **Green Bus Stop Project**
 
 ---
 
