@@ -153,6 +153,11 @@ class: inverse, middle, center
 
 ![](workflow.png)
 ---
+# Initial Preparation
+## Proposing Idea
+Planting 
+
+---
 # Approach - Current approach and issues
 ## Current approach
 - Fine-scale modeling of the urban heat island
@@ -261,13 +266,16 @@ The budget of implementation section is as the following:
 ![](Implementation_cost.png)
 - Select the bus stops that are not built on the pavement (no removal cost)
 - The calculation is based on 52 weeks a year
-- Totally 300 trees and 3 years
+- Totally 300 trees and 1 years
 
 Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (pruning) + ＄250 (Planting Hole) + 0.30*52*3 (water) )= ＄184,040
 ---
 # Project Managemenet
 
+![](project.png)
 
+---
+# Risks and Limitations
 
 
 
