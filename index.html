@@ -135,19 +135,44 @@ class: inverse, center, middle
 - Current criteria for prioritisation mainly on ridership with little attention on thermal conditions (citation) 
 
 - tackling UHI from both cause and impact &amp; achieving policies on green infrastructure and tree canopy through **Green Bus Stop Project**
+---
+# UHI and Transporation
+**Causes &amp; Impacts**
+- Low density city structure based urban sprawl into the deserts increases bus and car usage. 
+- High reliance on public transport in low-income communities found vulnerable to heat.
+- Phoenix is expected to double in population over the next 30 years.
+.pull-left[
+**Current Efforts**&lt;/br&gt;
+[`"Phoenix 2050 Transportation Plan"`](https://www.phoenix.gov/publictransitsite/MediaAssets/T2050_flyer.pdf)&lt;/br&gt;
+Mainly focusing on ridership but little on thermal conditions, installing shade structures at all bus stop is the only heat action.
+]
+.pull-right[
+**Our Project**&lt;/br&gt;
+[`Green Bus Stop Project`](https://ntsuchiyama.github.io/CASA0023_group_presentation/)
+Planting trees for bus stops and focusing on green space and thermal conditions.
+]
 
+![](phoenix.png)
 ---
 
 class: inverse, middle, center
 
 # Approach
 
+## Workflow
 ## Methodology
 ## Output 
 ## Implementation
 ## Allignment with Policy
 
 ---
+# Workflow
+
+![](workflow.png)
+---
+# Initial Preparation
+## Proposing Idea
+Planting 
 
 ---
 # Approach - Current approach and issues
@@ -171,13 +196,12 @@ Progress
 - Contract band 10 in Landsat 8,to create a heat map
 - Spatial join remotely sensing image with bus stops points data
 - Select top 30% hottest bus stops
-
----
 ---
 # Approach - Model/ System
 ### ENVI-MET
 ENVI-MET is a microclimate simulation software that can be used to model and analyze the microclimate of outdoor spaces. The software can simulate and analyze various environmental parameters such as air temperature, wind speed, humidity, and solar radiation.
--We put the meteorological data and bus stops data into ENVI-MET to simulate meteorological conditions near a bus stop.
+- We put the meteorological data and bus stops data into ENVI-MET to simulate meteorological conditions near a bus stop. After simulating the conditions, we set the temperature parameter after planting trees to predict the condition after planting trees near the bus stop.
+
 ---
 
 # Approach - Output
@@ -191,15 +215,34 @@ ENVI-MET is a microclimate simulation software that can be used to model and ana
 ![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png){width=50}
 ---
 
----
-
 # Approach - Limitation and Extensions
+- Bus stops data needs to be collected
+- Hard to simulate how well trees would effect temperature condition, so just set one unit reduced.
 
+- limitation 
 
 ---
+# Implementation-Planting Trees
 
-# Approach - Implementation
+The implementation section describes the planning of planting trees, which is divided into 3 parts:
 
+**1.Preliminary Preparation**
+- Identify if the bus stop is suitable for tree plangting
+- Check if there is:
+  + Adequate aboveground space
+  + Pavement requiring removal before planting
+  + Irrigation in-place
+
+**2. Planting**
+- Type: Mesquite tree
+- One tree at each bus stop
+
+**3. Maintenance**
+- Prune
+  + Ensuring a strong structure
+- Irrigation
+  + In-place irrigation
+  + Cost are divided into equipment installation and water charges
 ---
 
 ## Monitor and Evaluation
@@ -234,52 +277,24 @@ class: inverse, middle, center
 
 # Project plan
 ## Timeframe and budget
-
 ---
-class: center, middle
-# Workflow And Implementation
----
-# Overall Workflow
-(sample)
-![](sample.png)
----
-# Implementation1
-
-The implementation section describes the planning of planting trees, which is divided into 3 parts:
-
-**1.Preliminary Preparation: Bus Stop Survey**
-- Identify if the bus stop is suitable for tree plangting
-- Check if there is:
-  + Adequate aboveground space
-  + Pavement requiring removal before planting
-  + Irrigation in-place
-
-**2. Planting**
-- Type: Mesquite tree
-- One tree at each bus stop
-
-**3. Maintenance**
-- Prune
-  + Ensuring a strong structure
-- Irrigation
-  + In-place irrigation
-  + Cost are divided into equipment installation and water charges
-  
----
-# Implementation2
+# Cost of Planting Trees
 
 The budget of implementation section is as the following:
 
 ![](Implementation_cost.png)
 - Select the bus stops that are not built on the pavement (no removal cost)
 - The calculation is based on 52 weeks a year
-- Totally 300 trees and 3 years
+- Totally 300 trees and 1 years
 
 Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (pruning) + ＄250 (Planting Hole) + 0.30*52*3 (water) )= ＄184,040
 ---
+# Project Managemenet
 
+![](project.png)
 
-
+---
+# Risks and Limitations
 
 
 

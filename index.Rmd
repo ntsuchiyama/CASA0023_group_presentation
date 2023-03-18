@@ -209,6 +209,8 @@ ENVI-MET is a microclimate simulation software that can be used to model and ana
 - Bus stops data needs to be collected
 - Hard to simulate how well trees would effect temperature condition, so just set one unit reduced.
 
+- limitation 
+
 ---
 # Implementation-Planting Trees
 
