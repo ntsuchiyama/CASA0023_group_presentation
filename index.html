@@ -149,6 +149,18 @@ class: inverse, middle, center
 
 ---
 
+---
+# Approach - Current approach and issues
+## Current approach
+- Fine-scale modeling of the urban heat island
+-- Researcher Oukawa, Krecl and Targino developed MLR and RF regression models (for both daytime and nighttime) to explore the spatiotemporal evolution of the UHI, using air temperature (Tair) as the response variable. The division of the models into two periods is based on previous studies that reported significant differences between the daytime and nighttime UHI in Londrina .link-style2[[(Oukawa, Krecl and Targino, 2022)](https://www.sciencedirect.com/science/article/pii/S0048969721079158?casa_token=u1Tr3PPqF1UAAAAA:HGHv9wsjmabtqhFFaGmQlJeyjjOVJztmETaYU7HPRd2eXgOCsn-iN82C_btCBOB6ID5Zdh0nnUg)]
+
+## Issues
+
+1. Mostly Large scale research on UHI
+2. Datasets are not long-term data, using one season temperature data to train the model instead of yearly data.
+
+---
 # Approach - Methodology
 
 Data sets for detecting and classifying bus stops which have high temperature problem
@@ -160,12 +172,28 @@ Progress
 - Spatial join remotely sensing image with bus stops points data
 - Select top 30% hottest bus stops
 
-Pre-process Limitation
-![Bus stops](image/bus_station.png)
-
+---
+---
+# Approach - Model/ System
+### ENVI-MET
+ENVI-MET is a microclimate simulation software that can be used to model and analyze the microclimate of outdoor spaces. The software can simulate and analyze various environmental parameters such as air temperature, wind speed, humidity, and solar radiation.
+-We put the meteorological data and bus stops data into ENVI-MET to simulate meteorological conditions near a bus stop.
 ---
 
 # Approach - Output
+
+![Bus stops output](image/StrategicShade2.jpg){width=50,position:left}
+
+![ENVI-Met Model_assess](image/1-s2.0-S0360132311002411-gr4.jpg){width=50}
+
+![ENVI-Met Model](image/1-s2.0-S0360132311002411-gr2.jpg){width=50}
+
+![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png){width=50}
+---
+
+---
+
+# Approach - Limitation and Extensions
 
 
 ---
