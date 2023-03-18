@@ -142,13 +142,16 @@ class: inverse, middle, center
 
 # Approach
 
+## Workflow
 ## Methodology
 ## Output 
 ## Implementation
 ## Allignment with Policy
 
 ---
+# Workflow
 
+![](workflow.png)
 ---
 # Approach - Current approach and issues
 ## Current approach
@@ -171,8 +174,6 @@ Progress
 - Contract band 10 in Landsat 8,to create a heat map
 - Spatial join remotely sensing image with bus stops points data
 - Select top 30% hottest bus stops
-
----
 ---
 # Approach - Model/ System
 ### ENVI-MET
@@ -192,16 +193,32 @@ ENVI-MET is a microclimate simulation software that can be used to model and ana
 ![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png){width=50}
 ---
 
----
-
 # Approach - Limitation and Extensions
 - Bus stops data needs to be collected
 - Hard to simulate how well trees would effect temperature condition, so just set one unit reduced.
 
 ---
+# Implementation-Planting Trees
 
-# Approach - Implementation
+The implementation section describes the planning of planting trees, which is divided into 3 parts:
 
+**1.Preliminary Preparation**
+- Identify if the bus stop is suitable for tree plangting
+- Check if there is:
+  + Adequate aboveground space
+  + Pavement requiring removal before planting
+  + Irrigation in-place
+
+**2. Planting**
+- Type: Mesquite tree
+- One tree at each bus stop
+
+**3. Maintenance**
+- Prune
+  + Ensuring a strong structure
+- Irrigation
+  + In-place irrigation
+  + Cost are divided into equipment installation and water charges
 ---
 
 ## Monitor and Evaluation
@@ -236,39 +253,8 @@ class: inverse, middle, center
 
 # Project plan
 ## Timeframe and budget
-
 ---
-class: center, middle
-# Workflow And Implementation
----
-# Overall Workflow
-(sample)
-![](sample.png)
----
-# Implementation1
-
-The implementation section describes the planning of planting trees, which is divided into 3 parts:
-
-**1.Preliminary Preparation: Bus Stop Survey**
-- Identify if the bus stop is suitable for tree plangting
-- Check if there is:
-  + Adequate aboveground space
-  + Pavement requiring removal before planting
-  + Irrigation in-place
-
-**2. Planting**
-- Type: Mesquite tree
-- One tree at each bus stop
-
-**3. Maintenance**
-- Prune
-  + Ensuring a strong structure
-- Irrigation
-  + In-place irrigation
-  + Cost are divided into equipment installation and water charges
-  
----
-# Implementation2
+# Cost of Planting Trees
 
 The budget of implementation section is as the following:
 
@@ -279,7 +265,7 @@ The budget of implementation section is as the following:
 
 Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (pruning) + ＄250 (Planting Hole) + 0.30*52*3 (water) )= ＄184,040
 ---
-
+# Project Managemenet
 
 
 
