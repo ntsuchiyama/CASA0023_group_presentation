@@ -24,7 +24,7 @@ output:
 
 class: inverse, center, middle
 # Problem 
-## Background 
+## Problem Definition 
 ## Policies 
 ## Term Explanation
 
@@ -32,11 +32,11 @@ class: inverse, center, middle
 
 # Problem Definition
 ## Urban Heat Island (UHI) in Phoenix, Arizona
+- "the country's hottest and fifth populous city" (https://www.theguardian.com/us-news/2022/jan/27/phoenix-arizona-hottest-city-cooling-technologies)
+- Urbannisation as the maindriver of UHI - conversion to urban, residential and impervious surfaces (citation )
+- The population growth has led to a huge expansion in concrete infrastructure (buildings, roads and carparks) and a reduction in green areas, which has created heat islands – dangerously hot urban areas that absorb and re-emit the sun’s heat more than natural landscapes.
 
-- Urban Heat Island 
-- Rapid Urbanisation  
-- increase Conversion of land usage - hotter than the surrounding desert
-- Usage of AC makes outside spaces hotter especially during the night
+- 53 days above 113°F (43°C) in 2020 ()
 
 
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
@@ -53,7 +53,8 @@ knitr::include_graphics("uhi.jpg")
 
 ## Public Health
 
-- Tends to be most intense in the low income areas - more than half of the people who died in 2020 from heat were homeless []
+- Tends to be most intense in the low income areas - more than half of the people who died in 2020 from heat were homeless [add citation]
+- Mean 
 
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("death.png")
@@ -65,9 +66,13 @@ knitr::include_graphics("death.png")
 
 ## Economic
 
+**City Level**
+
 ```{r echo = FALSE, out.width='60%', fig.align='center'}
 knitr::include_graphics("cost.png")
 ```
+
+
 
 ---
 
@@ -75,7 +80,7 @@ knitr::include_graphics("cost.png")
 
 ## New Urban Agenda
 
-- "benefits of connectivity and reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise."
+- "reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise"
 
 ## SDGs 
 
@@ -89,7 +94,9 @@ knitr::include_graphics("cost.png")
 
 ### Heat Section - 2050 goal
 
-- Reduce urban heat-island effect through green infrastructure as well as doubling the current tree and shade canopy to 25%
+- Reduce urban heat-island effect through *green infrastructure as well as doubling the current tree and shade canopy to 25% (add citation )
+
+* green infrastructure - 
 
 
 
@@ -101,21 +108,21 @@ knitr::include_graphics("cost.png")
 knitr::include_graphics("benefit_cost.png")
 ```
 
-# Terms 
+
 ---
 
 # UHI and Transporation 
 
 **Cause**
-- low density city structure based urban sprawl into the deserts increases car usage  
+- low density city structure based urban sprawl into the deserts increases car usage (citation)
 - car 
 
 **Impact**
-- community efforts and interventions demonstrating high reliance on public transport in low-income communities found vulnerable to heat`
+- community efforts and interventions demonstrating high reliance on public transport in low-income communities found vulnerable to heat [add citation]
 
 **Current Efforts**
 - Phoenix 2050 Transportation Plan - Providing shade structures to bus stops https://www.phoenix.gov/publictransitsite/MediaAssets/T2050_flyer.pdf
-- Current criteria for prioritisation mainly on ridership with little attention on thermal conditions () 
+- Current criteria for prioritisation mainly on ridership with little attention on thermal conditions (citation) 
 
 - tackling UHI from both cause and impact & achieving policies on green infrastructure and tree canopy through **Green Bus Stop Project**
 
