@@ -262,6 +262,25 @@ The implementation section describes the planning of planting trees, which is di
 - Weather data is homogeneous and prone to human activities
 
 ---
+## How our approach answers policies
+
+.pull-left[
+- Temperatures are expected to lower by 0.5-1.5 degree in specific spots
+
+![](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7)
+
+.footnote[Source:[Bing](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7)]
+]
+
+.pull-right[
+- Citizens are provided with more shades around bus stops
+
+![](https://newoss.zhulong.com/tfs/pic/v1/tfs/T1NECvB4_T1RCvBVdK.jpg?x-oss-process=image/resize,w_760)
+
+.footnote[Source:[Newoss](https://newoss.zhulong.com/tfs/pic/v1/tfs/T1NECvB4_T1RCvBVdK.jpg?x-oss-process=image/resize,w_760)]
+]
+
+---
 
 class: inverse, middle, center
 
