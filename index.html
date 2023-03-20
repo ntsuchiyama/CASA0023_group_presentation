@@ -4,7 +4,7 @@
     <title>Green Bus Stop Project</title>
     <meta charset="utf-8" />
     <meta name="author" content="" />
-    <script src="libs/header-attrs-2.17/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.20/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
   </head>
@@ -177,17 +177,15 @@ Planting trees for some hot bus stops to provide shade for people
 
 ---
 # Methodology-Overall
+- Data
+&lt;img src="image/DATA.jpg" width="75%" style="display: block; margin: auto;" /&gt;
+- Process
 
-Data sets for detecting and classifying bus stops which have high temperature problem
-&lt;img src="image/DATA.jpg" width="70%" style="display: block; margin: auto;" /&gt;
-
-Progress
-&lt;img src="image/Process.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="image/Process.jpg" width="70%" style="display: block; margin: auto;" /&gt;
  
 ---
 # Methodology - General Meteorological condition
 .pull-left[
-- Data: 
 To get general condition: &lt;/br&gt;
 1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; &lt;/br&gt;
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
@@ -208,7 +206,7 @@ Obtain every first day Landsat 8 data for each month from 2017 to 2022. Make sur
 4. Calculate the brightness temperature and land surface temperature: It is calculated using the radiance values from the thermal bands and the Planck's law.Then use the result and emissivity to get LST.
 ]
 .pull-right[
-&lt;img src="image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg" width="100%" style="display: block; margin: auto;" /&gt;
 Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperature-with-landsat-8-images/) 
 ]
 ---

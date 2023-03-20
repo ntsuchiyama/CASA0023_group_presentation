@@ -167,21 +167,19 @@ Planting trees for some hot bus stops to provide shade for people
 
 ---
 # Methodology-Overall
-
-Data sets for detecting and classifying bus stops which have high temperature problem
-```{r echo=FALSE, out.width='70%', fig.align='center'}
+- Data
+```{r echo=FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics('image/DATA.jpg')
 ```
+- Process
 
-Progress
-```{r echo=FALSE, out.width='80%', fig.align='center'}
+```{r echo=FALSE, out.width='70%', fig.align='center'}
 knitr::include_graphics('image/Process.jpg')
 ```
  
 ---
 # Methodology - General Meteorological condition
 .pull-left[
-- Data: 
 To get general condition: </br>
 1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; </br>
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
@@ -202,7 +200,7 @@ Obtain every first day Landsat 8 data for each month from 2017 to 2022. Make sur
 4. Calculate the brightness temperature and land surface temperature: It is calculated using the radiance values from the thermal bands and the Planck's law.Then use the result and emissivity to get LST.
 ]
 .pull-right[
-```{r echo=FALSE, out.width='80%', fig.align='center'}
+```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg')
 ```
 Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperature-with-landsat-8-images/) 
