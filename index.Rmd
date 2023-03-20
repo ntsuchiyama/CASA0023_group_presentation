@@ -239,17 +239,6 @@ ENVI-MET is a microclimate simulation software that can be used to model and ana
 Source:[ENVI-Met Model Detecting](https://www.mdpi.com/sustainability/sustainability-06-07013/article_deploy/html/images/sustainability-06-07013-g007-1024.png)]
 .pull-right[![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png)
 Source:[ENVI-Met Model Output](https://ars.els-cdn.com/content/image/1-s2.0-S0360132311002411-gr2.jpg)]
-
-
-
----
-
-# Approach - Limitation and Extensions
-- Bus stops data needs to be collected
-- Hard to simulate how well trees would effect temperature condition, so just set one unit reduced.
-
-- limitation 
-
 ---
 # Implementation-Planting Trees
 
@@ -338,6 +327,25 @@ The budget of implementation section is as the following:
 - Totally 300 trees and 1 years
 
 Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*52*1 (water) )= ＄99,680
+
+---
+# Cost of ENVI-met and PWS
+
+.pull-left[
+## ENVI-met
+`Prediction before implementation`
+- Buying commercial vision
+- Budget = €2900 = ＄3102
+]
+
+.pull-right[
+## PWS
+`Monitor after implementation`
+- Installing for each bus stop
+- Totally 300
+- Budget = 300 * ＄1000 = ＄30,000
+]
+
 ---
 # Cost of Labour
 The project group consists of 3 government strategic researchers and 5 geographic cartographers
