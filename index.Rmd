@@ -148,11 +148,11 @@ Planting trees for some hot bus stops to provide shade for people
 - 4,038 bus stops within city boundaries
 - 2,850 of those stops have passenger shelters
 - No tree planting plan for bus stop
-- *Nearly 1000 bus stops have no any shade function*
+- *Nearly 1000 bus stops have no any shade structure*
 
 ## Completed Plan
-- Planting trees for the top hottest 40% bus top with no shelters
-- Totally planting 400 trees
+- Planting trees for the top hottest 30% bus stops with no shelters
+- Totally planting 300 trees
 
 ---
 # Approach - Current approach and issues
@@ -210,7 +210,7 @@ Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperatur
 .pull-left[Data: Bus stops geographic data; LST
 
 - Connect bus stops with LST result through spatial join. (QGIS)
-- Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops. These selected bus stops are objects we focus on in near future.]
+- Select bus stops which had a high rate to have high temperature in one year, then select top hottest 30% of those bus stops. These selected bus stops are objects we focus on in near future.]
 
 .pull-right[
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
@@ -324,7 +324,7 @@ The budget of implementation section is as the following:
 - The calculation is based on 52 weeks a year
 - Totally 300 trees and 1 years
 
-Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*52*1 (water) )= ＄99,680
+Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30 * 52 * 1 (water) )= ＄99,680
 
 ---
 # Cost of ENVI-met and PWS
@@ -340,8 +340,8 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 ## PWS
 `Monitor after implementation`
 - Installing for each bus stop
-- Totally 300
-- Budget = 300 * ＄1000 = ＄30,000
+- Totally 300 pieces
+- Budget = 300 * ＄1000 = ＄300,000
 ]
 
 ---
@@ -350,10 +350,12 @@ The project group consists of 3 government strategic researchers and 5 geographi
 ![](labour.png)
 
 - **A government strategic researcher** is paid $91,839 per year
-  + Paid per month = ＄91,839 / 12 = ＄7653
+  + Paid per month = ＄73,238 / 12 = ＄6103
 </br>
-- **A geographic cartographer** is paid $68,900 per year
-  + Paid per month = ＄68,900 / 12 = ＄5741
+- **A geographic cartographer** is paid $58,000 per year
+  + Paid per month = ＄58,000 / 12 = ＄4833
+  
+Budget per month = 3 * ＄6103 + 5 * ＄4833 = ＄42474
 ---
 # Project Managemenet
 Total Funding = ￡500,000 = ＄610,200
