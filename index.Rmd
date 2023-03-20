@@ -181,11 +181,11 @@ knitr::include_graphics('image/Process.jpg')
 # Methodology - General Meteorological condition
 .pull-left[
 To get general condition: </br>
-1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; </br>
+1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; </br></br>
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
 ]
 .pull-right[
-![Temperature Map](image/Screenshot 2023-03-19 193222.png)
+![Temperature Map](image/Screenshot 2023-03-19 193222.png)</br></br>
 ![Temperature Chart](image/Screenshot 2023-03-19 193636.png)
 Source: [NCEI](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/city/mapping/2/tavg/201701/1/value) 
 ]
@@ -209,7 +209,7 @@ Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperatur
 # Methodology -Select Bus stops
 .pull-left[Data: Bus stops geographic data; LST
 
-- Connect bus stops with LST result through spatial join. (QGIS)
+- Connect bus stops with LST result through spatial join. (QGIS)</br></br>
 - Select bus stops which had a high rate to have high temperature in one year, then select top hottest 30% of those bus stops. These selected bus stops are objects we focus on in near future.]
 
 .pull-right[
@@ -230,7 +230,7 @@ Source:[ENVI-Met Model Output](https://ars.els-cdn.com/content/image/1-s2.0-S036
 ---
 # Approach - Limitation and Extensions
 ## Limitation
-- The resolution of thermal infrared data collected by thermal infrared sensors mounted on remote sensing satellites is generally low. The thermal infrared band resolution of Landsat5 TM data is 120 meters, and the thermal infrared band resolution of Landsat8 TIRS data is 100 meters.
+- Remotely sensing data is not multi-source, Landsat 5 and ASTER, can also be used for long-term monitoring of temperature changes.
 
 - It is difficult to obtain image data at the same time of each year because each remote sensing satellite has a different operating period, and the revisit period for the same latitude and longitude area is also inconsistent.
 
