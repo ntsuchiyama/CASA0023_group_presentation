@@ -12,15 +12,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-# Content
-
-1. Problem 
-
-2. Approach 
-
-3. Project Management 
-
----
 
 class: inverse, center, middle
 # Problem 
@@ -86,6 +77,8 @@ knitr::include_graphics("cost.png")
 
 - "Investing in parks and green spaces in urban areas will help to ameliorate the urban heat island effect and improve air quality in urban spaces."
 
+** lacking detail on 
+
 ---
 
 # Local Policies regarding UHI 
@@ -128,18 +121,19 @@ knitr::include_graphics("benefit_cost.png")
 ---
 # UHI and Transporation
 **Causes & Impacts**
-- Low density city structure based urban sprawl into the deserts increases bus and car usage. 
-- High reliance on public transport in low-income communities found vulnerable to heat.
-- Phoenix is expected to double in population over the next 30 years.
+- Low density city structure based urban sprawl into the deserts increases bus and car usage 
+- Population expected to double in  expected to double in the next 30 years ()
+- High reliance on public transport in low-income communities found vulnerable to heat ()
+
 .pull-left[
 **Current Efforts**</br>
 [`"Phoenix 2050 Transportation Plan"`](https://www.phoenix.gov/publictransitsite/MediaAssets/T2050_flyer.pdf)</br>
-Mainly focusing on ridership but little on thermal conditions, installing shade structures at all bus stop is the only heat action.
+Mainly focusing on ridership but little on thermal conditions, installing shade structures at all bus stop is the only heat action (add source)
 ]
 .pull-right[
 **Our Project**</br>
 [`Green Bus Stop Project`](https://ntsuchiyama.github.io/CASA0023_group_presentation/)
-Planting trees for bus stops and focusing on green space and thermal conditions.
+Planting trees for bus stops and focusing on green space and thermal conditions for achieving policy goals 
 ]
 
 ![](phoenix.png)
