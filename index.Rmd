@@ -176,7 +176,7 @@ Planting
 2. Datasets are not long-term data, using one season temperature data to train the model instead of yearly data.
 
 ---
-# Approach - Methodology
+# Methodology-Overall
 
 Data sets for detecting and classifying bus stops which have high temperature problem
 ```{r echo=FALSE, out.width='70%', fig.align='center'}
@@ -189,22 +189,21 @@ knitr::include_graphics('image/Process.jpg')
 ```
  
 ---
-# Approach - General Meteorological condition
+# Methodology - General Meteorological condition
 .pull-left[
 - Data: 
 To get general condition: </br>
 1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; </br>
-2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. ]
+2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
+]
+
 .pull-right[
-```{r echo=FALSE, out.width='80%', fig.align='center'}
-knitr::include_graphics('image/Screenshot 2023-03-19 193636.png')
-knitr::include_graphics('image/Screenshot 2023-03-19 193222.png')
-```
+![](imageSourceStrategicShade2.jpg)
 Source: [NCEI](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/city/mapping/2/tavg/201701/1/value) 
 ]
 
 ---
-# Approach - Land surface temperature
+# Methodology - Land surface temperature
 .pull-left[
 1. Obtain Landsat 8 Data and select bands
 Obtain every first day Landsat 8 data for each month from 2017 to 2022. Make sure they have low cloud cover rate.
@@ -219,15 +218,19 @@ knitr::include_graphics('image/LST-Landsat-calcular-la-temperatura-de-superficie
 Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperature-with-landsat-8-images/) 
 ]
 ---
-# Approach -Select Bus stops
+# Methodology -Select Bus stops
 Data: Bus stops geographic data; LST
+
 - Connect bus stops with LST result through spatial join. (QGIS)
 - Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops. These selected bus stops are objects we focus on in near future.
-![Bus stops output](image/StrategicShade2.jpg){width=80,position:left}
-Source: [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observations-to-identify-the-hottest-bus-stops-in-phoenix/) 
+
+<center>![](image/StrategicShade2.jpg)
+
+Source: [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observations-to-identify-the-hottest-bus-stops-in-phoenix/)
+</center>
 
 ---
-# Approach - ENVI-MET
+# Methodology - ENVI-MET
 
 ENVI-MET is a microclimate simulation software that can be used to model and analyze the microclimate of outdoor spaces. The software can simulate and analyze various environmental parameters such as air temperature, wind speed, humidity, and solar radiation.
 - We put the meteorological data and bus stops data into ENVI-MET to simulate meteorological conditions near a bus stop. After simulating the conditions, we set the temperature parameter after planting trees to predict the condition after planting trees near the bus stop.
@@ -238,7 +241,7 @@ Source:[](https://ars.els-cdn.com/content/image/1-s2.0-S0360132311002411-gr2.jpg
 
 ---
 
-# Approach - Output
+# Methodology - Output
 
 
 
@@ -343,6 +346,16 @@ The budget of implementation section is as the following:
 - Totally 300 trees and 1 years
 
 Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (pruning) + ＄250 (Planting Hole) + 0.30*52*3 (water) )= ＄184,040
+---
+# Cost of Labour
+The project group consists of 3 government strategic researchers and 5 geographic cartographers
+![](labour.png)
+
+- **A government strategic researcher** is paid $91,839 per year
+  + Paid per month = ＄91,839 / 12 = ＄7653
+</br>
+- **A geographic cartographer** is paid $68,900 per year
+  + Paid per month = ＄68,900 / 12 = ＄5741
 ---
 # Project Managemenet
 
