@@ -230,14 +230,25 @@ Source:[ENVI-Met Model Detecting](https://www.mdpi.com/sustainability/sustainabi
 .pull-right[![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png)
 Source:[ENVI-Met Model Output](https://ars.els-cdn.com/content/image/1-s2.0-S0360132311002411-gr2.jpg)]
 ---
+# Approach - Limitation and Extensions
+## Limitation
+- The resolution of thermal infrared data collected by thermal infrared sensors mounted on remote sensing satellites is generally low. The thermal infrared band resolution of Landsat5 TM data is 120 meters, and the thermal infrared band resolution of Landsat8 TIRS data is 100 meters.
+
+- It is difficult to obtain image data at the same time of each year because each remote sensing satellite has a different operating period, and the revisit period for the same latitude and longitude area is also inconsistent.
+
+## Extension
+
+- A single model is not enough to match the complex evolution characteristics of the urban heat island.It still needs more advanced technology and multidisciplinary integration.
+
+---
 # Implementation-Planting Trees
 
 The implementation section describes the planning of planting trees, which is divided into 3 parts:
 
 **1.Preliminary Preparation**
-- Identify if the bus stop is suitable for tree plangting
+- Identify if the bus stop is suitable for tree planting
 - Check if there is:
-  + Adequate aboveground space
+  + Adequate overground space
   + Pavement requiring removal before planting
   + Irrigation in-place
 
@@ -254,9 +265,7 @@ The implementation section describes the planning of planting trees, which is di
 ---
 
 ## Monitor and Evaluation
-
-choosing final 
-![](monitor.jpg)
+![](monitor_flowchart.jpg)
 ---
 ## Personal Weather Station(PWS)
 
@@ -299,6 +308,7 @@ choosing final
 
 .footnote[Source:[Newoss](https://newoss.zhulong.com/tfs/pic/v1/tfs/T1NECvB4_T1RCvBVdK.jpg?x-oss-process=image/resize,w_760)]
 ]
+
 
 ---
 
