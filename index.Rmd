@@ -347,7 +347,7 @@ The budget of implementation section is as the following:
 - The calculation is based on 52 weeks a year
 - Totally 300 trees and 1 years
 
-Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (pruning) + ＄250 (Planting Hole) + 0.30*52*3 (water) )= ＄184,040
+Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*52*1 (water) )= ＄99,680
 ---
 # Cost of Labour
 The project group consists of 3 government strategic researchers and 5 geographic cartographers
