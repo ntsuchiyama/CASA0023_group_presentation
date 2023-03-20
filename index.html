@@ -3,10 +3,9 @@
   <head>
     <title>Green Bus Stop Project</title>
     <meta charset="utf-8" />
-    <meta name="author" content="" />
-    <script src="libs/header-attrs-2.17/header-attrs.js"></script>
-    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <meta name="author" content="Amazing Remotely Sensing" />
+    <script src="libs/header-attrs-2.20/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -19,10 +18,10 @@ class: center, middle, inverse, title-slide
 ## Combatting Urban Heat Island in Phoenix, Arizona
 ]
 .author[
-### 
+### Amazing Remotely Sensing
 ]
 .institute[
-### CASA0023 Remotely Sensing
+### CASA0023 Remotely Sensing Cities and Environments
 ]
 .date[
 ### 2023/03/20 (updated: 2023-03-20)
@@ -31,52 +30,72 @@ class: center, middle, inverse, title-slide
 ---
 
 
+
+
 class: inverse, center, middle
 # Problem 
-## Problem Definition 
-## Policies 
-## Term Explanation
+## Problem Definition
+## Cost of Problem 
+## Current Policies
 
 ---
 
-# Problem Definition
-## Urban Heat Island (UHI) in Phoenix, Arizona
+# Problem Definition - Urban Heat Island (UHI) in Phoenix, Arizona
+.pull_right[
+* Known as "the country's hottest and fifth populous city" (Lakhani)
+  + Temperature 
+     - 
+  + Population growth 
+     - City growing thorugh "urban sprawl" 
+]
 
-- "the country's hottest and fifth populous city" (https://www.theguardian.com/us-news/2022/jan/27/phoenix-arizona-hottest-city-cooling-technologies)
-
-**Current Situation**
-- 53 days above 113°F (43°C) in 2020 ()
-
----
-
-**Urbanisation as the maindriver of UHI**
-- conversion to urban, residential and impervious surfaces leading to higher temperature (citation )
-
-- "The population growth has led to a huge expansion in concrete infrastructure (buildings, roads and carparks) and a reduction in green areas, which has created heat islands – dangerously hot urban areas that absorb and re-emit the sun’s heat more than natural landscapes"
-
-&lt;img src="uhi.jpg" width="75%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-# Cost of the UHI in Phoenix
+# Problem Definition - Urban Heat Island (UHI) in Phoenix, Arizona
+
+**Urbanisation as the main driver of UHI**
+
+- Remote sensing data showing conversion to urban, residential and impervious surfaces and decrease in vegetation as the leading cause for the increase in temperature in Phoenix (Wang)
+
+&lt;img src="uhi.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+.center[Driving factors of Urban Heat Island in Phoenix - Source: [ASU](https://www.phoenix.gov/oepsite/Documents/PHX.UHITS.Hondula.Sept2020.pdf)]
+---
+
+# Cost of UHI in Phoenix
 
 ## Public Health
 
+- Increase in heat associated deaths yearly 
 - Tends to be most intense in the low income areas - more than half of the people who died in 2020 from heat were homeless [add citation]
 
 &lt;img src="death.png" width="75%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-# Cost of the UHI in Phoenix
+# Cost of UHI in Phoenix
+
+.pull-left[
+## Environmental 
+
+- 1°F increase in daily low temperatures associated with 290 gallons increase an average monthly usage of water for a typical
+single-family unit ()
 
 ## Economic
 
-**City Level**
+- Urban Heat Island as **"an unintended urbanization tax on every resident, business, and municipal facility"** (add citation)
+]
 
-&lt;img src="cost.png" width="60%" style="display: block; margin: auto;" /&gt;
+.pull-right[
 
+&lt;br&gt;
+&lt;br&gt;
 
+&lt;img src="cost.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+.center[Source: [AECOM &amp; the Nature Conservatory](https://www.nature.org/content/dam/tnc/nature/en/documents/TNC_EcoHeatAssement_AZ_Report.pdf)
+]
+]
 
 ---
 
@@ -84,13 +103,13 @@ class: inverse, center, middle
 
 ## New Urban Agenda
 
-- "reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise"
+- "reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise" 
 
 ## SDGs 
 
 - "Investing in parks and green spaces in urban areas will help to ameliorate the urban heat island effect and improve air quality in urban spaces."
 
-** lacking detail on 
+** lacking detail on the specific detais **
 
 ---
 
@@ -98,25 +117,35 @@ class: inverse, center, middle
 
 ## Phoenix Climate Action Plan
 
-### Heat Section - 2050 goal
+### Heat Section - 2050 goal (add citation)
 
-- Reduce urban heat-island effect through *green infrastructure as well as doubling the current tree and shade canopy to 25% (add citation )
+- Reduce urban heat-island effect through green infrastructure as well as **doubling the current tree and shade canopy to 25%**
+- Have all residents within a five-minute walk from a park
+or open space by adding new parks or open space in underserved areas,
+adding 150 miles of paths, greenways, and bikeways throughout the city, and transforming an additional 150 miles of
+canals into vibrant public space
 
-* green infrastructure - 
+**What are the estimated benefits of this policy?**
+
+.center[Benefit-Cost Analsysis for Solution Scenario (2020-2059)]
+
+| Solution Scenario | Benefit | Cost | B-C Ratio |
+|:-------:|:------:|:------:|:------:|
+| 25% Urban Tree Canopy Cover | $15.3 billion | $4.0 billion | 3.78 |
+
+.center[Source: [AECOM &amp; the Nature Conservatory](https://www.nature.org/content/dam/tnc/nature/en/documents/TNC_EcoHeatAssement_AZ_Report.pdf)]
 
 
-
----
-
-# Benefit of the UHI in Phoenix 
-
-&lt;img src="benefit_cost.png" width="75%" style="display: block; margin: auto;" /&gt;
+**However...** Not much progress being made 
 
 ---
 # UHI and Transporation
-- Low density city structure based urban sprawl into the deserts increases bus and car usage 
-- Population expected to double in  expected to double in the next 30 years ()
-- High reliance on public transport in low-income communities found vulnerable to heat ()
+** Focus on the transportation - how does the UHI problem intersect with this particular sector?**
+
+Transportation as cause
+* Low density city structure based urban sprawl into the deserts increases private vehicle usage 
+- 
+- High reliance on public transport in low-income communities which are found vulnerable to heat ()
 
 ---
 # UHI and Transportation
@@ -124,12 +153,12 @@ class: inverse, center, middle
 .pull-left[
 **Current Efforts**&lt;/br&gt;
 [`"Phoenix 2050 Transportation Plan"`](https://www.phoenix.gov/publictransitsite/MediaAssets/T2050_flyer.pdf)&lt;/br&gt;
-Mainly focusing on ridership but little on thermal conditions, installing shade structures at all bus stop is the only heat action (add source)
+Mainly focusing on ridership but little on thermal conditions, installing shade structures is the only heat action (add source)
 ]
 .pull-right[
 **Our Project**&lt;/br&gt;
-[`Green Bus Stop Project`](https://ntsuchiyama.github.io/CASA0023_group_presentation/)
-Planting trees for bus stops and focusing on green space and thermal conditions for achieving policy goals 
+[`Green Bus Stop Project`](https://ntsuchiyama.github.io/CASA0023_group_presentation/)&lt;/br&gt;
+Planting trees for bus stops and focusing on green space and thermal conditions for increasing bus usage and achieving policy goals 
 ]
 
 ![](phoenix.png)
@@ -154,11 +183,12 @@ class: inverse, middle, center
 ## Proposing Idea
 Planting trees for some hot bus stops to provide shade for people 
 
-## Bus Stop Survey
+## Bus Stop Survey ()
 - 4,038 bus stops within city boundaries
-- 2,850 of those stops have passenger shelters
+- 2,850 of those stops have passenger shelters as of 2017
 - No tree planting plan for bus stop
 - *Nearly 1000 bus stops have no any shade function*
+- community interaction
 
 ## Completed Plan
 - Planting trees for the top hottest 40% bus top with no shelters
@@ -167,8 +197,11 @@ Planting trees for some hot bus stops to provide shade for people
 ---
 # Approach - Current approach and issues
 ## Current approach
-- Fine-scale modeling of the urban heat island
--- Researcher Oukawa, Krecl and Targino developed MLR and RF regression models (for both daytime and nighttime) to explore the spatiotemporal evolution of the UHI, using air temperature (Tair) as the response variable. The division of the models into two periods is based on previous studies that reported significant differences between the daytime and nighttime UHI in Londrina .link-style2[[(Oukawa, Krecl and Targino, 2022)](https://www.sciencedirect.com/science/article/pii/S0048969721079158?casa_token=u1Tr3PPqF1UAAAAA:HGHv9wsjmabtqhFFaGmQlJeyjjOVJztmETaYU7HPRd2eXgOCsn-iN82C_btCBOB6ID5Zdh0nnUg)]
+* Fine-scale modeling of the urban heat island (Oukawa citation) 
+
+  + Development of MLR and RF regression models (for both daytime and nighttime) to explore the spatiotemporal evolution of the UHI, using air temperature as the response variable
+  
+  + The division of the models into two periods based on previous studies that reported significant differences between the daytime and nighttime UHI 
 
 ## Issues
 
@@ -202,21 +235,21 @@ Source: [NCEI](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/c
 # Methodology - Land surface temperature
 .pull-left[
 1. Obtain Landsat 8 Data and select bands
-Obtain every first day Landsat 8 data for each month from 2017 to 2022. Make sure they have low cloud cover rate.
-2. Atmospheric correction: To increase accuracy of the temperature measurements. 
+Obtain every first day Landsat 8 data for each month from 2017 to 2022 - Make sure they have low cloud cover rate
+2. Atmospheric correction: To increase accuracy of the temperature measurements
 3. Convert digital numbers to radiance: The thermal bands of Landsat 8 provide data (TIRS1 and TIRS2) in digital numbers (DN).
-4. Calculate the brightness temperature and land surface temperature: It is calculated using the radiance values from the thermal bands and the Planck's law.Then use the result and emissivity to get LST.
+4. Calculate the brightness temperature and land surface temperature: calculated using the radiance values from the thermal bands and the Planck's law -use the result and emissivity to get LST
 ]
 .pull-right[
 &lt;img src="image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg" width="80%" style="display: block; margin: auto;" /&gt;
 Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperature-with-landsat-8-images/) 
 ]
 ---
-# Methodology -Select Bus stops
+# Methodology - Select Bus stops
 .pull-left[Data: Bus stops geographic data; LST
 
-- Connect bus stops with LST result through spatial join. (QGIS)
-- Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops. These selected bus stops are objects we focus on in near future.]
+- Connect bus stops with LST result through spatial join (QGIS)
+- Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops - These selected bus stops are objects we focus on in near future.]
 
 .pull-right[
 &lt;img src="image/StrategicShade2.jpg" width="80%" style="display: block; margin: auto;" /&gt;
@@ -266,7 +299,7 @@ The implementation section describes the planning of planting trees, which is di
   + Cost are divided into equipment installation and water charges
 ---
 
-## Monitor and Evaluation
+# Monitor and Evaluation
 ![](monitor_flowchart.jpg)
 ---
 ## Personal Weather Station(PWS)
