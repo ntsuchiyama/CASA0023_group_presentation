@@ -25,11 +25,7 @@ class: center, middle, inverse, title-slide
 ### CASA0023 Remotely Sensing
 ]
 .date[
-<<<<<<< HEAD
 ### 2023/03/20 (updated: 2023-03-20)
-=======
-### 2023/03/20 (updated: 2023-03-19)
->>>>>>> d0d56408b5183afbfa89bd5e696a83b58d4c8a99
 ]
 
 ---
@@ -193,16 +189,10 @@ Planting
 # Approach - Methodology
 
 Data sets for detecting and classifying bus stops which have high temperature problem
-![Data Workflow](image/Mindmap.jpg)
+&lt;img src="image/DATA.jpg" width="70%" style="display: block; margin: auto;" /&gt;
 
 Progress
-- Collect and cut the Phoenix area remotely sensing Landsat 5+8 image
-- Contract band 10 in Landsat 8,to create a heat map
-- Spatial join remotely sensing image with bus stops points data
-- Select top 30% hottest bus stops
-- Data: Landsat 8 Operational Land Imager (OLI) Software: QGIS&lt;/br&gt;
-5. Calculate the : It can be calculated using the brightness temperature and the emissivity of the land surface.
- 6. Use the LST to retrieve vegetation information: By comparing the LST of vegetated areas to non-vegetated areas, retrieving information about vegetation density and health.
+&lt;img src="image/Process.jpg" width="80%" style="display: block; margin: auto;" /&gt;
  
 ---
 # Approach - General Meteorological condition
@@ -242,8 +232,10 @@ Source: [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observatio
 
 ENVI-MET is a microclimate simulation software that can be used to model and analyze the microclimate of outdoor spaces. The software can simulate and analyze various environmental parameters such as air temperature, wind speed, humidity, and solar radiation.
 - We put the meteorological data and bus stops data into ENVI-MET to simulate meteorological conditions near a bus stop. After simulating the conditions, we set the temperature parameter after planting trees to predict the condition after planting trees near the bus stop.
-.pull-left[![ENVI-Met Model](image/1-s2.0-S0360132311002411-gr2.jpg)]
-.pull-right[![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png)]
+.pull-left[![ENVI-Met Model](image/1-s2.0-S0360132311002411-gr2.jpg)
+Source:[](https://www.mdpi.com/sustainability/sustainability-06-07013/article_deploy/html/images/sustainability-06-07013-g007-1024.png)]
+.pull-right[![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png)
+Source:[](https://ars.els-cdn.com/content/image/1-s2.0-S0360132311002411-gr2.jpg)]
 
 ---
 

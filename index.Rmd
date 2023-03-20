@@ -179,16 +179,14 @@ Planting
 # Approach - Methodology
 
 Data sets for detecting and classifying bus stops which have high temperature problem
-![Data Workflow](image/Mindmap.jpg)
+```{r echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics('image/DATA.jpg')
+```
 
 Progress
-- Collect and cut the Phoenix area remotely sensing Landsat 5+8 image
-- Contract band 10 in Landsat 8,to create a heat map
-- Spatial join remotely sensing image with bus stops points data
-- Select top 30% hottest bus stops
-- Data: Landsat 8 Operational Land Imager (OLI) Software: QGIS</br>
-5. Calculate the : It can be calculated using the brightness temperature and the emissivity of the land surface.
- 6. Use the LST to retrieve vegetation information: By comparing the LST of vegetated areas to non-vegetated areas, retrieving information about vegetation density and health.
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('image/Process.jpg')
+```
  
 ---
 # Approach - General Meteorological condition
