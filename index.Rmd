@@ -30,8 +30,9 @@ class: inverse, center, middle
 # Problem Definition - Urban Heat Island (UHI) in Phoenix, Arizona
 .pull_right[
 * Known as "the country's hottest and fifth populous city" (Lakhani)
-  + Temperature 
-     - 
+  + Heat Situation 
+     - 110°F (43.3°C) or higher for 22 days 
+     - 75% of the nights higher than 80°F (43.3°C)
   + Population growth 
      - City growing thorugh "urban sprawl" 
 ]
@@ -55,11 +56,11 @@ knitr::include_graphics("uhi.jpg")
 
 ## Public Health
 
-- Increase in heat associated deaths yearly 
+- Heat associated deaths per year show an increasing trend 
 - Tends to be most intense in the low income areas - more than half of the people who died in 2020 from heat were homeless [add citation]
 
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
-knitr::include_graphics("death.png")
+knitr::include_graphics("heat_death.png")
 ```
 
 ---
@@ -70,7 +71,7 @@ knitr::include_graphics("death.png")
 ## Environmental 
 
 - 1°F increase in daily low temperatures associated with 290 gallons increase an average monthly usage of water for a typical
-single-family unit ()
+single-family unit (add citation)
 
 ## Economic
 
