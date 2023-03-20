@@ -23,29 +23,30 @@ class: inverse, center, middle
 
 # Problem Definition
 ## Urban Heat Island (UHI) in Phoenix, Arizona
-- "the country's hottest and fifth populous city" (https://www.theguardian.com/us-news/2022/jan/27/phoenix-arizona-hottest-city-cooling-technologies)
-- Urbannisation as the maindriver of UHI - conversion to urban, residential and impervious surfaces (citation )
-- The population growth has led to a huge expansion in concrete infrastructure (buildings, roads and carparks) and a reduction in green areas, which has created heat islands – dangerously hot urban areas that absorb and re-emit the sun’s heat more than natural landscapes.
 
+- "the country's hottest and fifth populous city" (https://www.theguardian.com/us-news/2022/jan/27/phoenix-arizona-hottest-city-cooling-technologies)
+
+**Current Situation**
 - 53 days above 113°F (43°C) in 2020 ()
 
+---
+
+**Urbanisation as the maindriver of UHI**
+- conversion to urban, residential and impervious surfaces leading to higher temperature (citation )
+
+- "The population growth has led to a huge expansion in concrete infrastructure (buildings, roads and carparks) and a reduction in green areas, which has created heat islands – dangerously hot urban areas that absorb and re-emit the sun’s heat more than natural landscapes"
 
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("uhi.jpg")
 ```
 
-
-
 ---
 
 # Cost of the UHI in Phoenix
 
-## Environmental 
-
 ## Public Health
 
 - Tends to be most intense in the low income areas - more than half of the people who died in 2020 from heat were homeless [add citation]
-- Mean 
 
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("death.png")
@@ -100,7 +101,6 @@ knitr::include_graphics("cost.png")
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("benefit_cost.png")
 ```
-
 
 ---
 # UHI and Transporation
