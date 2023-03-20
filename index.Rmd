@@ -156,7 +156,17 @@ class: inverse, middle, center
 ---
 # Initial Preparation
 ## Proposing Idea
-Planting 
+Planting trees for some hot bus stops to provide shade for people 
+
+## Bus Stop Survey
+- 4,038 bus stops within city boundaries
+- 2,850 of those stops have passenger shelters
+- No tree planting plan for bus stop
+- *Nearly 1000 bus stops have no any shade function*
+
+## Completed Plan
+- Planting trees for the top hottest 40% bus top with no shelters
+- Totally planting 400 trees
 
 ---
 # Approach - Current approach and issues
@@ -170,37 +180,34 @@ Planting
 2. Datasets are not long-term data, using one season temperature data to train the model instead of yearly data.
 
 ---
-# Approach - Methodology
+# Methodology-Overall
 
 Data sets for detecting and classifying bus stops which have high temperature problem
-![Data Workflow](image/Mindmap.jpg)
+```{r echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics('image/DATA.jpg')
+```
 
 Progress
-- Collect and cut the Phoenix area remotely sensing Landsat 5+8 image
-- Contract band 10 in Landsat 8,to create a heat map
-- Spatial join remotely sensing image with bus stops points data
-- Select top 30% hottest bus stops
-- Data: Landsat 8 Operational Land Imager (OLI) Software: QGIS</br>
-5. Calculate the : It can be calculated using the brightness temperature and the emissivity of the land surface.
- 6. Use the LST to retrieve vegetation information: By comparing the LST of vegetated areas to non-vegetated areas, retrieving information about vegetation density and health.
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('image/Process.jpg')
+```
  
 ---
-# Approach - General Meteorological condition
+# Methodology - General Meteorological condition
 .pull-left[
 - Data: 
 To get general condition: </br>
 1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; </br>
-2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. ]
+2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
+]
 .pull-right[
-```{r echo=FALSE, out.width='80%', fig.align='center'}
-knitr::include_graphics('image/Screenshot 2023-03-19 193636.png')
-knitr::include_graphics('image/Screenshot 2023-03-19 193222.png')
-```
+![Temperature Map](image/Screenshot 2023-03-19 193222.png)
+![Temperature Chart](image/Screenshot 2023-03-19 193636.png)
 Source: [NCEI](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/city/mapping/2/tavg/201701/1/value) 
 ]
 
 ---
-# Approach - Land surface temperature
+# Methodology - Land surface temperature
 .pull-left[
 1. Obtain Landsat 8 Data and select bands
 Obtain every first day Landsat 8 data for each month from 2017 to 2022. Make sure they have low cloud cover rate.
@@ -215,42 +222,27 @@ knitr::include_graphics('image/LST-Landsat-calcular-la-temperatura-de-superficie
 Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperature-with-landsat-8-images/) 
 ]
 ---
-# Approach -Select Bus stops
-Data: Bus stops geographic data; LST
-- Connect bus stops with LST result through spatial join. (QGIS)
-- Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops. These selected bus stops are objects we focus on in near future.
-![Bus stops output](image/StrategicShade2.jpg){width=80,position:left}
-Source: [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observations-to-identify-the-hottest-bus-stops-in-phoenix/) 
+# Methodology -Select Bus stops
+.pull-left[Data: Bus stops geographic data; LST
 
+- Connect bus stops with LST result through spatial join. (QGIS)
+- Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops. These selected bus stops are objects we focus on in near future.]
+
+.pull-right[
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('image/StrategicShade2.jpg')
+```
+Source: [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observations-to-identify-the-hottest-bus-stops-in-phoenix/) 
+]
 ---
-# Approach - ENVI-MET
+# Methodology - ENVI-MET
 
 ENVI-MET is a microclimate simulation software that can be used to model and analyze the microclimate of outdoor spaces. The software can simulate and analyze various environmental parameters such as air temperature, wind speed, humidity, and solar radiation.
 - We put the meteorological data and bus stops data into ENVI-MET to simulate meteorological conditions near a bus stop. After simulating the conditions, we set the temperature parameter after planting trees to predict the condition after planting trees near the bus stop.
 .pull-left[![ENVI-Met Model](image/1-s2.0-S0360132311002411-gr2.jpg)
-Source:[](https://www.mdpi.com/sustainability/sustainability-06-07013/article_deploy/html/images/sustainability-06-07013-g007-1024.png)]
+Source:[ENVI-Met Model Detecting](https://www.mdpi.com/sustainability/sustainability-06-07013/article_deploy/html/images/sustainability-06-07013-g007-1024.png)]
 .pull-right[![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png)
-Source:[](https://ars.els-cdn.com/content/image/1-s2.0-S0360132311002411-gr2.jpg)]
-
----
-
-# Approach - Output
-
-
-
-![ENVI-Met Model_assess](image/1-s2.0-S0360132311002411-gr4.jpg){width=50}
-
-
-
-
----
-
-# Approach - Limitation and Extensions
-- Bus stops data needs to be collected
-- Hard to simulate how well trees would effect temperature condition, so just set one unit reduced.
-
-- limitation 
-
+Source:[ENVI-Met Model Output](https://ars.els-cdn.com/content/image/1-s2.0-S0360132311002411-gr2.jpg)]
 ---
 # Implementation-Planting Trees
 
@@ -338,9 +330,39 @@ The budget of implementation section is as the following:
 - The calculation is based on 52 weeks a year
 - Totally 300 trees and 1 years
 
-Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (pruning) + ＄250 (Planting Hole) + 0.30*52*3 (water) )= ＄184,040
+Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*52*1 (water) )= ＄99,680
+
+---
+# Cost of ENVI-met and PWS
+
+.pull-left[
+## ENVI-met
+`Prediction before implementation`
+- Buying commercial vision
+- Budget = €2900 = ＄3102
+]
+
+.pull-right[
+## PWS
+`Monitor after implementation`
+- Installing for each bus stop
+- Totally 300
+- Budget = 300 * ＄1000 = ＄30,000
+]
+
+---
+# Cost of Labour
+The project group consists of 3 government strategic researchers and 5 geographic cartographers
+![](labour.png)
+
+- **A government strategic researcher** is paid $91,839 per year
+  + Paid per month = ＄91,839 / 12 = ＄7653
+</br>
+- **A geographic cartographer** is paid $68,900 per year
+  + Paid per month = ＄68,900 / 12 = ＄5741
 ---
 # Project Managemenet
+Total Funding = ￡500,000 = ＄610,200
 
 ![](project.png)
 
