@@ -79,9 +79,12 @@ knitr::include_graphics("uhi.jpg")
 - Heat associated deaths per year show an increasing trend within the county `r Citep(myBib,"baker_2021_2021")`
 - Tends to be most intense in the low income areas - more than half of the people who died in 2020 were homeless, disproportionately represented by African Americans and Indigenous groups `r Citep(myBib,"lakhani_as_2022")`
 
+.center[Heat Associated Deaths in Maricopa County - Source: [Maricopa County](https://www.maricopa.gov/DocumentCenter/View/74257/Final-2021-Heat-Deaths#:~:text=338%20heat%2Dassociated%20deaths%20were,a%2069.8%25%20increase%20from%202019.&text=The%20proportion%20of%20indoor%20heat,also%20been%20increasing%20each%20year)]
+
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("heat_death.png")
 ```
+
 
 ---
 
@@ -262,7 +265,7 @@ To get general condition** </br>
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
 ]
 .pull-right[
-.center[- Possible Outputs -
+.center[**Possible Outputs**
 
 
 ![Temperature Map](image/Screenshot 2023-03-19 193222.png)
@@ -282,7 +285,7 @@ Obtain every first day Landsat 8 data for each month from 2017 to 2022 - Make su
 ]
 .pull-right[
 .center[
-- Possible Output -
+**Possible Output**
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics('image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg')
@@ -303,7 +306,7 @@ Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperatur
 
 .pull-right[
 .center[
-- Possible Output - 
+**Possible Output** 
 
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
@@ -357,7 +360,6 @@ The implementation section describes the planning of planting trees, which is di
   + In-place irrigation
   + Cost are divided into equipment installation and water charges
 ---
-<<<<<<< HEAD
 
 # Monitor - Evaluation of Project
 
@@ -370,7 +372,7 @@ The implementation section describes the planning of planting trees, which is di
 
 ![](https://www.wunderground.com/static/i/PWSassets/overview1.png)
 
-.center[PWS Work Process - Personal Weather Station (PWS) Source:[https://www.wunderground.com/pws/overview](https://www.wunderground.com/pws/overview)]
+.center[PWS Work Process - Personal Weather Station (PWS) <br> Source: [Weather Underground](https://www.wunderground.com/pws/overview)]
 
 ---
 # Monitor - Personal Weather Station (PWS)
@@ -526,5 +528,6 @@ PrintBibliography(myBib, start = 11, end = 15)
 # References
 
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(myBib, start = 16, end = 21)
+PrintBibliography(myBib, start = 16, end = 20)
 ```
+
