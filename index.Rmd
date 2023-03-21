@@ -250,8 +250,9 @@ knitr::include_graphics('image/DATA.jpg')
 ```
 
 Progress
+
 ```{r echo=FALSE, out.width='70%', fig.align='center'}
-knitr::include_graphics('image/Process.jpg')
+knitr::include_graphics('image/process.jpg')
 ```
  
 ---
