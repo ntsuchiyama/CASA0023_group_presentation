@@ -333,8 +333,6 @@ The implementation section describes the planning of planting trees, which is di
 - One tree at each bus stop
 
 **3. Maintenance**
-- Prune
-  + Ensuring a strong structure
 - Irrigation
   + In-place irrigation
   + Cost are divided into equipment installation and water charges
