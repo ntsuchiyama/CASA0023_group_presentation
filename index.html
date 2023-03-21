@@ -4,7 +4,7 @@
     <title>Green Bus Stop Project</title>
     <meta charset="utf-8" />
     <meta name="author" content="Amazing Remotely Sensing" />
-    <script src="libs/header-attrs-2.20/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.16/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -170,15 +170,21 @@ Modes of Transport and UHI
 .pull-left[
 **Current Efforts**&lt;/br&gt;
 [`"Phoenix 2050 Transportation Plan"`](https://www.phoenix.gov/publictransitsite/MediaAssets/T2050_flyer.pdf)&lt;/br&gt;
-Mainly focusing on ridership but little on thermal conditions, installing shade structures is the only heat action (add source)
+- Mainly focusing on ridership but little on thermal conditions
+- Installing shade structures is the only heat action (add source)
 ]
 .pull-right[
 **Our Project**&lt;/br&gt;
 [`Green Bus Stop Project`](https://ntsuchiyama.github.io/CASA0023_group_presentation/)&lt;/br&gt;
-Planting trees for bus stops and focusing on green space and thermal conditions for increasing bus usage and achieving policy goals 
+&lt;/br&gt;
+- Planting trees for bus stops 
+- Focusing on green space and thermal conditions for increasing bus usage and achieving policy goals
 ]
-
+&lt;/br&gt;
+&lt;/br&gt;
 ![](phoenix.png)
+&lt;/br&gt;
+Sources:[WIKIMEDIA COMMONS](https://commons.wikimedia.org/wiki/File:Zen_bus_stop.jpg), [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observations-to-identify-the-hottest-bus-stops-in-phoenix/)
 ---
 
 class: inverse, middle, center
@@ -237,13 +243,15 @@ Progress
 ---
 # Methodology - General Meteorological condition
 .pull-left[
-- Data: 
-To get general condition: &lt;/br&gt;
+- **Data: 
+To get general condition** &lt;/br&gt;
 1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; &lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
 ]
 .pull-right[
-Possible Outputs 
+**Possible Outputs**
 
 
 ![Temperature Map](image/Screenshot 2023-03-19 193222.png)
@@ -261,7 +269,7 @@ Obtain every first day Landsat 8 data for each month from 2017 to 2022 - Make su
 4. Calculate the brightness temperature and land surface temperature: calculated using the radiance values from the thermal bands and the Planck's law -use the result and emissivity to get LST
 ]
 .pull-right[
-Possible Output
+**Possible Output**
 
 
 &lt;img src="image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg" width="80%" style="display: block; margin: auto;" /&gt;
@@ -269,14 +277,16 @@ Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperatur
 ]
 ---
 # Methodology - Select Bus stops
-.pull-left[Data: Bus stops geographic data; LST
+.pull-left[**Data: Bus stops geographic data; LST**
 
 - Connect bus stops with LST result through spatial join (QGIS)
+&lt;/br&gt;
+&lt;/br&gt;
 - Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops - These selected bus stops are objects we focus on in near future.]
 
 .pull-right[
 
-Possible Output 
+**Possible Output**
 
 
 &lt;img src="image/StrategicShade2.jpg" width="80%" style="display: block; margin: auto;" /&gt;
@@ -322,14 +332,14 @@ The implementation section describes the planning of planting trees, which is di
 - One tree at each bus stop
 
 **3. Maintenance**
-- Prune
-  + Ensuring a strong structure
 - Irrigation
   + In-place irrigation
   + Cost are divided into equipment installation and water charges
 ---
-
 # Monitor and Evaluation
+
+## Monitoring the effect after implementation
+
 ![](monitor_flowchart.jpg)
 ---
 ## Personal Weather Station(PWS)
@@ -361,7 +371,7 @@ The implementation section describes the planning of planting trees, which is di
 .pull-left[
 - Temperatures are expected to lower by the simulation results in the bus spots
 
-![](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&amp;h=180&amp;c=7&amp;r=0&amp;o=5&amp;pid=1.7)
+![](tem.png)
 
 .footnote[Source:[Bing](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&amp;h=180&amp;c=7&amp;r=0&amp;o=5&amp;pid=1.7)]
 ]
@@ -401,6 +411,8 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 `Prediction before implementation`
 - Buying commercial vision
 - Budget = €2900 = ＄3102
+
+![](priceENVI.png)
 ]
 
 .pull-right[
@@ -409,27 +421,57 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 - Installing for each bus stop
 - Totally 300
 - Budget = 300 * ＄1000 = ＄30,000
+
+![](PWSS.png)
 ]
 
 ---
 # Cost of Labour
 The project group consists of 3 government strategic researchers and 5 geographic cartographers
-![](labour.png)
 
-- **A government strategic researcher** is paid $91,839 per year
-  + Paid per month = ＄91,839 / 12 = ＄7653
-&lt;/br&gt;
+![](labour.png)
+&lt;/br&gt;Working before implementation:
+- **A strategic researcher** is paid $86,717 per year
+  + Paid per month = ＄86,717 / 12 = ＄7,226
 - **A geographic cartographer** is paid $68,900 per year
-  + Paid per month = ＄68,900 / 12 = ＄5741
+  + Paid per month = ＄68,900 / 12 = ＄5,741
+
+Working before and during implementation:
+- **A project manager** is paid $82,822 per year
+  + Paid per month = ＄82,822 / 12 = ＄6,901
 ---
 # Project Managemenet
 Total Funding = ￡500,000 = ＄610,200
+&lt;/br&gt;
+Estimated Spending Plan = ＄600,753
+&lt;/br&gt;
+**Remainder = ＄610,200 - ＄600,753 = ＄9447**
 
 ![](project.png)
 
 ---
-# Risks and Limitations
+# Project Risks and Limitations
+.pull-left[
+## Risks
+- Cost risk
+  + Over budget
+&lt;/br&gt;
+- External hazards risk
+  + Monitoring equipment damage
+&lt;/br&gt;
+- Performance risk
+  + Can not finish planting 300 trees in 3 months
+&lt;/br&gt;
+- Communication risk
+  + The group could not reach an agreement among the three parties
+]
 
+.pull-right[
+## Limitations
+- Unable to implement this project at all bus stops due to the funding limitation
+&lt;/br&gt;
+- Only bus stops that are not built on pavement can be selected for implementation because of the higher removal cost. 
+]
 ---
 
 # References
