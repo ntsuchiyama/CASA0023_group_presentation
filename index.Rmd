@@ -465,10 +465,13 @@ Estimated Spending Plan = ＄600,753
 ## Risks
 - Cost risk
   + Over budget
+</br>
 - External hazards risk
   + Monitoring equipment damage
+</br>
 - Performance risk
   + Can not finish planting 300 trees in 3 months
+</br>
 - Communication risk
   + The group could not reach an agreement among the three parties
 ]
@@ -476,7 +479,8 @@ Estimated Spending Plan = ＄600,753
 .pull-right[
 ## Limitations
 - Unable to implement this project at all bus stops due to the funding limitation
-- 
+</br>
+- Only bus stops that are not built on pavement can be selected for implementation because of the higher removal cost. 
 ]
 ---
 
