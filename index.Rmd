@@ -426,12 +426,12 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 # Cost of Labour
 The project group consists of 3 government strategic researchers and 5 geographic cartographers
 ![](labour.png)
-
-- **A government strategic researcher** is paid $91,839 per year
-  + Paid per month = ＄91,839 / 12 = ＄7653
-</br>
+- **A government strategic researcher** is paid $86,717 per year
+  + Paid per month = ＄86,717 / 12 = ＄7,226
 - **A geographic cartographer** is paid $68,900 per year
-  + Paid per month = ＄68,900 / 12 = ＄5741
+  + Paid per month = ＄68,900 / 12 = ＄5,741
+- **A project manager** is paid $82,822 per year
+  + Paid per month = ＄82,822 / 12 = ＄6,901
 ---
 # Project Managemenet
 # Project Managemenet
