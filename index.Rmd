@@ -177,15 +177,25 @@ Modes of Transport and UHI
 .pull-left[
 **Current Efforts**</br>
 [`"Phoenix 2050 Transportation Plan"`](https://www.phoenix.gov/publictransitsite/MediaAssets/T2050_flyer.pdf)</br>
+<<<<<<< HEAD
 Mainly focusing on ridership but little on thermal conditions, installing shade structures is the only heat action `r Citep(myBib,"watkins_strategic_2017")`
+=======
+- Mainly focusing on ridership but little on thermal conditions
+- Installing shade structures is the only heat action (add source)
+>>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
 ]
 .pull-right[
 **Our Project**</br>
 [`Green Bus Stop Project`](https://ntsuchiyama.github.io/CASA0023_group_presentation/)</br>
-Planting trees for bus stops and focusing on green space and thermal conditions for increasing bus usage and achieving policy goals 
+</br>
+- Planting trees for bus stops 
+- Focusing on green space and thermal conditions for increasing bus usage and achieving policy goals
 ]
-
+</br>
+</br>
 ![](phoenix.png)
+</br>
+Sources:[WIKIMEDIA COMMONS](https://commons.wikimedia.org/wiki/File:Zen_bus_stop.jpg), [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observations-to-identify-the-hottest-bus-stops-in-phoenix/)
 ---
 
 class: inverse, middle, center
@@ -247,13 +257,19 @@ knitr::include_graphics('image/Process.jpg')
 ---
 # Methodology - General Meteorological condition
 .pull-left[
-- Data: 
-To get general condition: </br>
+- **Data: 
+To get general condition** </br>
 1. Use National Centers for Environmental Information time series data to get average/ highest temperature condition in Phoenix from year 2017 to 2022; </br>
+</br>
+</br>
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
 ]
 .pull-right[
+<<<<<<< HEAD
 .center[-Possible Outputs-
+=======
+**Possible Outputs**
+>>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
 
 
 ![Temperature Map](image/Screenshot 2023-03-19 193222.png)
@@ -272,8 +288,12 @@ Obtain every first day Landsat 8 data for each month from 2017 to 2022 - Make su
 4. Calculate the brightness temperature and land surface temperature: calculated using the radiance values from the thermal bands and the Planck's law -use the result and emissivity to get LST
 ]
 .pull-right[
+<<<<<<< HEAD
 .center[
 -Possible Output-
+=======
+**Possible Output**
+>>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
 
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
@@ -286,14 +306,21 @@ Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperatur
 ]
 ---
 # Methodology - Select Bus stops
-.pull-left[Data: Bus stops geographic data; LST
+.pull-left[**Data: Bus stops geographic data; LST**
 
 - Connect bus stops with LST result through spatial join (QGIS)
+</br>
+</br>
 - Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops - These selected bus stops are objects we focus on in near future.]
 
 .pull-right[
+<<<<<<< HEAD
 .center[
 -Possible Output- 
+=======
+
+**Possible Output**
+>>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
 
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
@@ -343,14 +370,19 @@ The implementation section describes the planning of planting trees, which is di
 - Type: Mesquite tree - start with one tree at each bus stop
 
 **3. Maintenance**
-- Prune
-  + Ensuring a strong structure
 - Irrigation
   + In-place irrigation
   + Cost are divided into equipment installation and water charges
 ---
+<<<<<<< HEAD
 
 # Monitor - Evaluation of Project
+=======
+# Monitor and Evaluation
+
+## Monitoring the effect after implementation
+
+>>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
 ![](monitor_flowchart.jpg)
 ---
 # Monitor - Personal Weather Station (PWS)
@@ -383,7 +415,7 @@ The implementation section describes the planning of planting trees, which is di
 .pull-left[
 - Temperatures are expected to lower by the simulation results in the bus spots
 
-![](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7)
+![](tem.png)
 
 .footnote[Source:[Bing](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7)]
 ]
@@ -424,6 +456,8 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 `Prediction before implementation`
 - Buying commercial vision
 - Budget = €2900 = ＄3102
+
+![](priceENVI.png)
 ]
 
 .pull-right[
@@ -432,27 +466,61 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 - Installing for each bus stop
 - Totally 300
 - Budget = 300 * ＄1000 = ＄30,000
+
+![](PWSS.png)
 ]
 
 ---
 # Cost of Labour
 The project group consists of 3 government strategic researchers and 5 geographic cartographers
+<<<<<<< HEAD
 ![](labour_fix.png)
+=======
+>>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
 
-- **A government strategic researcher** is paid $91,839 per year
-  + Paid per month = ＄91,839 / 12 = ＄7653
-</br>
+![](labour.png)
+</br>Working before implementation:
+- **A strategic researcher** is paid $86,717 per year
+  + Paid per month = ＄86,717 / 12 = ＄7,226
 - **A geographic cartographer** is paid $68,900 per year
-  + Paid per month = ＄68,900 / 12 = ＄5741
+  + Paid per month = ＄68,900 / 12 = ＄5,741
+
+Working before and during implementation:
+- **A project manager** is paid $82,822 per year
+  + Paid per month = ＄82,822 / 12 = ＄6,901
 ---
 # Project Managemenet
 Total Funding = ￡500,000 = ＄610,200
+</br>
+Estimated Spending Plan = ＄600,753
+</br>
+**Remainder = ＄610,200 - ＄600,753 = ＄9447**
 
 ![](project.png)
 
 ---
-# Risks and Limitations
+# Project Risks and Limitations
+.pull-left[
+## Risks
+- Cost risk
+  + Over budget
+</br>
+- External hazards risk
+  + Monitoring equipment damage
+</br>
+- Performance risk
+  + Can not finish planting 300 trees in 3 months
+</br>
+- Communication risk
+  + The group could not reach an agreement among the three parties
+]
 
+.pull-right[
+## Limitations
+- Unable to implement this project at all bus stops due to the funding limitation
+</br>
+- Only bus stops that are not built on pavement can be selected for implementation because of the higher removal cost. 
+]
 ---
 
 # References
