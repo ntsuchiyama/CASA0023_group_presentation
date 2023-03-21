@@ -19,6 +19,18 @@ library(xaringanthemer)
 style_duo_accent(primary_color="#c2f0f0",text_font_size="1rem",header_h1_font_size="1.6rem",header_h2_font_size="1.4rem",header_h3_font_size="1.2rem")
 ```
 
+```{r, load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "urldate", "issn"))
+myBib <- ReadBib("references.bib", check = FALSE)
+```    
+
 class: inverse, center, middle
 # Problem 
 ## Problem Definition
@@ -28,14 +40,19 @@ class: inverse, center, middle
 ---
 
 # Problem Definition - Urban Heat Island (UHI) in Phoenix, Arizona
-.pull_right[
 * Known as "the country's hottest and fifth populous city" (Lakhani)
-  + Heat Situation 
+  + Heat Situation ()
      - 110°F (43.3°C) or higher for 22 days 
      - 75% of the nights higher than 80°F (43.3°C)
   + Population growth 
-     - City growing thorugh "urban sprawl" 
-]
+     - City growing through "urban sprawl" - the rapid conversion in to urban areas from agricultural land with poor land management ()
+     - The fastest growing urban metorpolitan area in the US for five years (2016-2021)
+     
+.center[![](ifn0112.png)
+     
+     
+** What is the relationship between these two factors?**]
+
 
 
 ---
@@ -44,7 +61,9 @@ class: inverse, center, middle
 
 **Urbanisation as the main driver of UHI**
 
-- Remote sensing data showing conversion to urban, residential and impervious surfaces and decrease in vegetation as the leading cause for the increase in temperature in Phoenix (Wang)
+- Remote sensing data showing conversion to urban, residential and impervious surfaces and decrease in vegetation as the leading cause for the increase in temperature in Phoenix `r Citep(myBib,"wang_spatio-temporal_2016")`
+- 
+- Effects found most intense in areas with high socio-economic vulnerability based with higher temperatures and less vegentation ()
 
 ```{r echo = FALSE, out.width='60%', fig.align='center'}
 knitr::include_graphics("uhi.jpg")
@@ -57,7 +76,7 @@ knitr::include_graphics("uhi.jpg")
 ## Public Health
 
 - Heat associated deaths per year show an increasing trend 
-- Tends to be most intense in the low income areas - more than half of the people who died in 2020 from heat were homeless [add citation]
+- Tends to be most intense in the low income areas - more than half of the people who died in 2020 were homeless [add citation]
 
 ```{r echo = FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("heat_death.png")
@@ -97,21 +116,23 @@ knitr::include_graphics("cost.png")
 
 ## New Urban Agenda
 
-- "reducing the financial, environmental and public health costs of inefficient mobility, congestion, air pollution, urban heat island effects and noise" 
+- "We commit ourselves to the generation and use of renewable and affordable energy and sustainable and **efficient transport infrastructure and services**, where possible, **achieving the
+benefits of connectivity and reducing the financial, environmental and public health costs of**
+inefficient mobility, congestion, air pollution, **urban heat island effects** and noise" 
 
 ## SDGs 
 
-- "Investing in parks and green spaces in urban areas will help to ameliorate the urban heat island effect and improve air quality in urban spaces."
+- "Investing in parks and **green spaces in urban areas** will help to ameliorate the urban heat island effect and improve air quality in urban spaces."
 
-** lacking detail on the specific detais **
+## Beat the Heat Handbook
+
+- controlling the heat island effect at the city scale by "zoning statutes, urban planning regulations for mitigating heat islands, **transport planning** and **mandates for green cover**"
 
 ---
 
 # Local Policies regarding UHI 
 
-## Phoenix Climate Action Plan
-
-### Heat Section - 2050 goal (add citation)
+## Phoenix Climate Action Plan - Heat Section - 2050 goal (add citation)
 
 - Reduce urban heat-island effect through green infrastructure as well as **doubling the current tree and shade canopy to 25%**
 - Have all residents within a five-minute walk from a park
@@ -130,16 +151,21 @@ canals into vibrant public space
 .center[Source: [AECOM & the Nature Conservatory](https://www.nature.org/content/dam/tnc/nature/en/documents/TNC_EcoHeatAssement_AZ_Report.pdf)]
 
 
-**However...** Not much progress being made 
+**However...** Very slow progress (original goal set in 2030) ()
 
 ---
 # UHI and Transporation
 ** Focus on the transportation - how does the UHI problem intersect with this particular sector?**
 
-Transportation as cause
-* Low density city structure based urban sprawl into the deserts increases private vehicle usage 
-- 
-- High reliance on public transport in low-income communities which are found vulnerable to heat ()
+Transportation as cause of UHI 
+* Auto-centric design of the city - Low density urban area with city growth based on urban sprawl (Hoehne )
+  +  High private vehicle usage 
+     -  
+
+
+
+Modes of Transport and UHI
+* High reliance on public transport in low-income communities which are found vulnerable to heat ()
 
 ---
 # UHI and Transportation
@@ -177,9 +203,9 @@ class: inverse, middle, center
 ## Proposing Idea
 Planting trees for some hot bus stops to provide shade for people 
 
-## Bus Stop Survey ()
+## Bus Stop Survey 
 - 4,038 bus stops within city boundaries
-- 2,850 of those stops have passenger shelters as of 2017
+- 2,850 of those stops have passenger shelters as of 2017 ()
 - No tree planting plan for bus stop
 - *Nearly 1000 bus stops have no any shade function*
 - community interaction
@@ -211,7 +237,7 @@ knitr::include_graphics('image/DATA.jpg')
 ```
 
 Progress
-```{r echo=FALSE, out.width='80%', fig.align='center'}
+```{r echo=FALSE, out.width='70%', fig.align='center'}
 knitr::include_graphics('image/Process.jpg')
 ```
  
@@ -224,6 +250,9 @@ To get general condition: </br>
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
 ]
 .pull-right[
+Possible Outputs 
+
+
 ![Temperature Map](image/Screenshot 2023-03-19 193222.png)
 ![Temperature Chart](image/Screenshot 2023-03-19 193636.png)
 Source: [NCEI](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/city/mapping/2/tavg/201701/1/value) 
@@ -239,6 +268,9 @@ Obtain every first day Landsat 8 data for each month from 2017 to 2022 - Make su
 4. Calculate the brightness temperature and land surface temperature: calculated using the radiance values from the thermal bands and the Planck's law -use the result and emissivity to get LST
 ]
 .pull-right[
+Possible Output
+
+
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics('image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg')
 ```
@@ -252,6 +284,10 @@ Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperatur
 - Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops - These selected bus stops are objects we focus on in near future.]
 
 .pull-right[
+
+Possible Output 
+
+
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics('image/StrategicShade2.jpg')
 ```
@@ -262,6 +298,9 @@ Source: [IEEE](https://earthzine.org/strategic-shade-using-nasa-earth-observatio
 
 ENVI-MET is a microclimate simulation software that can be used to model and analyze the microclimate of outdoor spaces. The software can simulate and analyze various environmental parameters such as air temperature, wind speed, humidity, and solar radiation.
 - We put the meteorological data and bus stops data into ENVI-MET to simulate meteorological conditions near a bus stop. After simulating the conditions, we set the temperature parameter after planting trees to predict the condition after planting trees near the bus stop.
+
+
+
 .pull-left[![ENVI-Met Model](image/1-s2.0-S0360132311002411-gr2.jpg)
 Source:[ENVI-Met Model Detecting](https://www.mdpi.com/sustainability/sustainability-06-07013/article_deploy/html/images/sustainability-06-07013-g007-1024.png)]
 .pull-right[![ENVI-Met Model_green](image/sustainability-06-07013-g007-1024.png)
@@ -331,7 +370,7 @@ The implementation section describes the planning of planting trees, which is di
 ## How our approach answers policies
 
 .pull-left[
-- Temperatures are expected to lower by 0.5-1.5 degree in specific spots
+- Temperatures are expected to lower by the simulation results in the bus spots
 
 ![](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7)
 
@@ -339,7 +378,7 @@ The implementation section describes the planning of planting trees, which is di
 ]
 
 .pull-right[
-- Citizens are provided with more shades around bus stops
+- Citizens are provided with shades around bus stops - may encourage the usage of public transport, an initial step for more sustainable tranport methods
 
 ![](https://newoss.zhulong.com/tfs/pic/v1/tfs/T1NECvB4_T1RCvBVdK.jpg?x-oss-process=image/resize,w_760)
 
@@ -356,7 +395,7 @@ class: inverse, middle, center
 ---
 # Cost of Planting Trees
 
-The budget of implementation section is as the following:
+The budget of implementation section is as the following (based on ):
 
 ![](Implementation_cost.png)
 - Select the bus stops that are not built on the pavement (no removal cost)
@@ -395,12 +434,23 @@ The project group consists of 3 government strategic researchers and 5 geographi
   + Paid per month = ＄68,900 / 12 = ＄5741
 ---
 # Project Managemenet
+# Project Managemenet
 Total Funding = ￡500,000 = ＄610,200
+Estimated Spending Plan = ＄600,753
+**Remainder = ＄610,200 - ＄600,753 = ＄9447**
 
 ![](project.png)
 
 ---
 # Risks and Limitations
+
+---
+
+# References
+
+```{r, results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 1, end = 5)
+```
 
 
 
