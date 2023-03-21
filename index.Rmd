@@ -422,6 +422,8 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 `Prediction before implementation`
 - Buying commercial vision
 - Budget = €2900 = ＄3102
+
+![](priceENVI.png)
 ]
 
 .pull-right[
@@ -430,6 +432,8 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 - Installing for each bus stop
 - Totally 300
 - Budget = 300 * ＄1000 = ＄30,000
+
+![](PWSS.png)
 ]
 
 ---
@@ -456,8 +460,24 @@ Estimated Spending Plan = ＄600,753
 ![](project.png)
 
 ---
-# Risks and Limitations
+# Project Risks and Limitations
+.pull-left[
+## Risks
+- Cost risk
+  + Over budget
+- External hazards risk
+  + Monitoring equipment damage
+- Performance risk
+  + Can not finish planting 300 trees in 3 months
+- Communication risk
+  + The group could not reach an agreement among the three parties
+]
 
+.pull-right[
+## Limitations
+- Unable to implement this project at all bus stops due to the funding limitation
+- 
+]
 ---
 
 # References
