@@ -177,12 +177,9 @@ Modes of Transport and UHI
 .pull-left[
 **Current Efforts**</br>
 [`"Phoenix 2050 Transportation Plan"`](https://www.phoenix.gov/publictransitsite/MediaAssets/T2050_flyer.pdf)</br>
-<<<<<<< HEAD
+
 Mainly focusing on ridership but little on thermal conditions, installing shade structures is the only heat action `r Citep(myBib,"watkins_strategic_2017")`
-=======
-- Mainly focusing on ridership but little on thermal conditions
-- Installing shade structures is the only heat action (add source)
->>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
+
 ]
 .pull-right[
 **Our Project**</br>
@@ -228,7 +225,7 @@ Planting trees for some hot bus stops to provide shade for people
 - Totally planting 400 trees
 
 ---
-# Approach - Current approach and issues
+# Methodology - Current approaches and issues
 ## Current approach
 * Fine-scale modeling of the urban heat island `r Citep(myBib,"oukawa_fine-scale_2022")`
 
@@ -242,7 +239,7 @@ Planting trees for some hot bus stops to provide shade for people
 2. Datasets are not long-term data, using one season temperature data to train the model instead of yearly data.
 
 ---
-# Methodology-Overall
+# Methodology - Overall
 
 Data sets for detecting and classifying bus stops which have high temperature problem
 ```{r echo=FALSE, out.width='60%', fig.align='center'}
@@ -265,11 +262,7 @@ To get general condition** </br>
 2. Use National Centers for Environmental Information mapping data to get high heat distribution in Phoenix from year 2017 to 2022. 
 ]
 .pull-right[
-<<<<<<< HEAD
-.center[-Possible Outputs-
-=======
-**Possible Outputs**
->>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
+.center[- Possible Outputs -
 
 
 ![Temperature Map](image/Screenshot 2023-03-19 193222.png)
@@ -288,13 +281,8 @@ Obtain every first day Landsat 8 data for each month from 2017 to 2022 - Make su
 4. Calculate the brightness temperature and land surface temperature: calculated using the radiance values from the thermal bands and the Planck's law -use the result and emissivity to get LST
 ]
 .pull-right[
-<<<<<<< HEAD
 .center[
--Possible Output-
-=======
-**Possible Output**
->>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
-
+- Possible Output -
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics('image/LST-Landsat-calcular-la-temperatura-de-superficie.jpg')
@@ -314,13 +302,8 @@ Source: [GIScrack](https://giscrack.com/how-to-calculate-land-surface-temperatur
 - Select bus stops which had a high rate to have high temperature in one year, then select top 30% of those bus stops - These selected bus stops are objects we focus on in near future.]
 
 .pull-right[
-<<<<<<< HEAD
 .center[
--Possible Output- 
-=======
-
-**Possible Output**
->>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
+- Possible Output - 
 
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
@@ -344,7 +327,7 @@ ENVI-MET is a microclimate simulation software that can be used to model and ana
 .center[ENVI-Met Model (L) Detection (R) Output - Source: [Ambrosini *et al.* 2014](https://www.mdpi.com/2071-1050/6/10/7013)
 ]
 ---
-# Approach - Limitation and Extensions
+# Methodology - Limitation and Extensions
 ## Limitation
 - The resolution of thermal infrared data collected by thermal infrared sensors mounted on remote sensing satellites is generally low. The thermal infrared band resolution of Landsat5 TM data is 120 meters, and the thermal infrared band resolution of Landsat8 TIRS data is 100 meters.
 
@@ -377,12 +360,10 @@ The implementation section describes the planning of planting trees, which is di
 <<<<<<< HEAD
 
 # Monitor - Evaluation of Project
-=======
-# Monitor and Evaluation
+
 
 ## Monitoring the effect after implementation
 
->>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
 ![](monitor_flowchart.jpg)
 ---
 # Monitor - Personal Weather Station (PWS)
@@ -392,8 +373,8 @@ The implementation section describes the planning of planting trees, which is di
 .center[PWS Work Process - Personal Weather Station (PWS) Source:[https://www.wunderground.com/pws/overview](https://www.wunderground.com/pws/overview)]
 
 ---
-# Monitor - 
-## Features of PWS
+# Monitor - Personal Weather Station (PWS)
+## Features of PWS 
 
 - Precision: Get weather conditions for users' exact location (not their neighbor’s)
 
@@ -410,10 +391,10 @@ The implementation section describes the planning of planting trees, which is di
 - Weather data is homogeneous and prone to human activities
 
 ---
-## How our approach answers policies
+# How does our approach lie within current global and local policies?
 
 .pull-left[
-- Temperatures are expected to lower by the simulation results in the bus spots
+- Temperatures are expected to lower by the simulation results in the bus spots - combat UHI effect
 
 ![](tem.png)
 
@@ -439,7 +420,7 @@ class: inverse, middle, center
 ---
 # Cost of Planting Trees
 
-The budget of implementation section is as the following (based on ):
+The budget of implementation section is as the following `r Citep(myBib,"mcpherson_cost_1991")`:
 
 ![](Implementation_cost.png)
 - Select the bus stops that are not built on the pavement (no removal cost)
@@ -472,11 +453,8 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 
 ---
 # Cost of Labour
-The project group consists of 3 government strategic researchers and 5 geographic cartographers
-<<<<<<< HEAD
-![](labour_fix.png)
-=======
->>>>>>> c005a29a4b65d52b3c0068af291e0ffae53a5fff
+The project group consists of 1 project manager, 2 government strategic researchers and 4 geographic cartographers
+
 
 ![](labour.png)
 </br>Working before implementation:
@@ -528,6 +506,25 @@ Estimated Spending Plan = ＄600,753
 ```{r, results='asis', echo=FALSE}
 PrintBibliography(myBib, start = 1, end = 5)
 ```
+---
+# References
 
+```{r, results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 6, end = 10)
+```
 
+---
 
+# References
+
+```{r, results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 11, end = 15)
+```
+
+---
+
+# References
+
+```{r, results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 16, end = 21)
+```
