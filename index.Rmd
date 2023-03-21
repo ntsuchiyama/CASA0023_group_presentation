@@ -382,7 +382,7 @@ The implementation section describes the planning of planting trees, which is di
 .pull-left[
 - Temperatures are expected to lower by the simulation results in the bus spots
 
-![](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7)
+![](tem.png)
 
 .footnote[Source:[Bing](https://th.bing.com/th/id/OIP.SLV4UTFniHdbucbFBRB-8wHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7)]
 ]
@@ -441,7 +441,7 @@ Budget  = ＄500 (Survey) + 300 * (＄65 (tree) + ＄250 (Planting Hole) + 0.30*
 The project group consists of 3 government strategic researchers and 5 geographic cartographers
 
 ![](labour.png)
-Working before implementation:
+</br>Working before implementation:
 - **A strategic researcher** is paid $86,717 per year
   + Paid per month = ＄86,717 / 12 = ＄7,226
 - **A geographic cartographer** is paid $68,900 per year
@@ -452,9 +452,10 @@ Working before and during implementation:
   + Paid per month = ＄82,822 / 12 = ＄6,901
 ---
 # Project Managemenet
-# Project Managemenet
 Total Funding = ￡500,000 = ＄610,200
+</br>
 Estimated Spending Plan = ＄600,753
+</br>
 **Remainder = ＄610,200 - ＄600,753 = ＄9447**
 
 ![](project.png)
